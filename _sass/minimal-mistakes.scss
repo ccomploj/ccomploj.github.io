@@ -1,0 +1,68 @@
+/*!
+ * Minimal Mistakes Jekyll Theme 4.21.0 by Michael Rose
+ * Copyright 2013-2020 Michael Rose - mademistakes.com | @mmistakes
+ * Licensed under MIT (https://github.com/mmistakes/minimal-mistakes/blob/master/LICENSE)
+*/
+
+/* CUSTOM HEADLINE SCALE */
+$h-size-1: 1.45em; // ~25.008px
+$h-size-2: 1.15em; // ~20px
+$h-size-3: 1.05em; // ~18px
+$h-size-4: 0.95em; // ~17px
+$h-size-5: 0.9em; // ~16.5px
+$h-size-6: 0.85em; // ~16px
+
+
+/* Variables */
+@import "minimal-mistakes/variables";
+
+/* Mixins and functions */
+@import "minimal-mistakes/vendor/breakpoint/breakpoint";
+@include breakpoint-set("to ems", true);
+@import "minimal-mistakes/vendor/magnific-popup/magnific-popup"; // Magnific Popup
+@import "minimal-mistakes/vendor/susy/susy";
+@import "minimal-mistakes/mixins";
+
+/* Core CSS */
+@import "minimal-mistakes/reset";
+@import "minimal-mistakes/base";
+@import "minimal-mistakes/forms";
+@import "minimal-mistakes/tables";
+@import "minimal-mistakes/animations";
+
+/* Components */
+@import "minimal-mistakes/buttons";
+@import "minimal-mistakes/notices";
+@import "minimal-mistakes/masthead";
+@import "minimal-mistakes/navigation";
+@import "minimal-mistakes/footer";
+@import "minimal-mistakes/search";
+@import "minimal-mistakes/syntax";
+
+/* Utility classes */
+@import "minimal-mistakes/utilities";
+
+/* Layout specific */
+@import "minimal-mistakes/page";
+@import "minimal-mistakes/archive";
+@import "minimal-mistakes/sidebar";
+@import "minimal-mistakes/print";
+
+
+
+
+
+
+/* CUSTOM UNDERLINE COLOR */
+.greedy-nav .visible-links a:before {
+  background-color: mix(#000, $teal-color, 10%);
+}
+
+
+/* CUSTOM DETAILS (from Abstract to papers) */
+details {
+	margin-left: 1em;
+	margin-top: -1em;
+	padding-bottom: 1em;
+	color: $primary-color;
+}
