@@ -20,7 +20,7 @@ masthead_title: "Castor Comploj"
 title: "Castor Comploj"
 email: raoreski@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
-I am a doctoral candidate at the University of Groningen. My current main research interests are health economics and applied microeconometrics. I currently work on topics related to chronic conditions among elderly. Prior to my journey as PhD candidate, I have completed Bachelor and Master Education in Economics, both in the Netherlands.
+I am a doctoral candidate at the University of Groningen.
 port: 4000
 host: "0.0.0.0"
 twitter_username: reskihasan
