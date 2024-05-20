@@ -63,10 +63,10 @@ plugins:
   - jekyll-include-cache
 
 author:
-  name   : "Shan Huang"
-  avatar : "/assets/images/Huang_france_250.jpg"
-  bio    : "I'm a postdoc at **Stockholm School of Economics** and the **University of Copenhagen**. I'm interested in health economics."
-  location: "Stockholm, Sweden"
+  name   : "Castor Comploj"
+  avatar : "/assets/images/profilepic-castor.jpg"
+  bio    : "I'm a doctoral students in Economics at the **University of Groningen**. I'm interested in health economics."
+  location: "Groningen, The Netherlands"
   links:
     - label: "Twitter"
       icon: "fab fa-twitter"
