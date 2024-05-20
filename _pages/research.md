@@ -53,7 +53,7 @@ The causal effect of antibiotic prescribing on population antibiotic resistance 
 [//]: # (Links)
 
 [Anirban Basu]: <http://www.anirbanbasu.org/>
-[Gerard van den Berg]	:<https://www.rug.nl/staff/gerard.van.den.berg/>
+[Gerard van den Berg]: <https://www.rug.nl/staff/gerard.van.den.berg/>
 [Stefan Pichler]		:<https://www.rug.nl/staff/s.pichler/cv?lang=en>
 
 [//]: # (Salience of antibiotic resistance and antibiotic prescribing in primary care)
