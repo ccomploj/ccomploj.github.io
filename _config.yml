@@ -14,11 +14,11 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 locale                   : "en-US"
-logo: "/assets/images/mastheadLogo.png"
-# repository               : "ShanHuang-ec/shanhuang-ec.github.io" # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
+logo: "/assets/images/logo-cc.png"
+# repository             : "ccomploj/ccomploj.github.io" # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
 masthead_title           : "Castor Comploj"
 title: "Castor Comploj"
-email: shuang@diw.de
+# email: shuang@diw.de
 description: >- # this means to ignore newlines until "baseurl:"
 #  I'm a postdoctoral researcher at Stockholm School of Economics and the University of Copenhagen. This is my personal webpage.
 port                     : 4000
@@ -70,16 +70,16 @@ author:
   links:
     - label: "Twitter"
       icon: "fab fa-twitter"
-      url: "https://twitter.com/ShanHuang_ec"
+      #url: "https://twitter.com/"
     - label: "SSE page"
       icon: "fas fa-fw fa-link"
-      url: "https://www.hhs.se/en/persons/h/huang-shan/"   
+      #url: "https://www.hhs.se/en/persons/h/huang-shan/"   
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: #"https://github.com/ShanHuang-ec"         
+      url: "https://github.com/ccomploj"         
     - label: "Email"
       icon: "fas fa-envelope"
-      url: "mailto:Shan.Huang@hhs.se"      
+      url: "mailto:c.comploj@rug.nl"      
 
 footer:
 #  links:
