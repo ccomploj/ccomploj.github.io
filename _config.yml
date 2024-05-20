@@ -15,7 +15,7 @@
 # in the templates via {{ site.myvariable }}.
 locale                   : "en-US"
 logo: "/assets/images/mastheadLogo.png"
-repository               : "ShanHuang-ec/shanhuang-ec.github.io" # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
+# repository               : "ShanHuang-ec/shanhuang-ec.github.io" # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
 masthead_title           : "Castor Comploj"
 title: "Castor Comploj"
 email: shuang@diw.de
