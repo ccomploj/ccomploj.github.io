@@ -70,7 +70,7 @@ author:
   links:
     - label: "Twitter"
       icon: "fab fa-twitter"
-      # url: "https://twitter.com/ShanHuang_ec"
+      url: "https://twitter.com/ShanHuang_ec"
     - label: "SSE page"
       icon: "fas fa-fw fa-link"
       url: "https://www.hhs.se/en/persons/h/huang-shan/"   
