@@ -21,6 +21,16 @@ and grandchildren.
 </details>
 
 
+Multimorbidity: permanent costs to bad health <br/>
+<small>*Draft available on request* </small> <br/>  
+<details>
+<summary><small>Abstract</small></summary>
+<small>
+It is well established that multimorbidity increases with aging and is associated with adverse health outcomes, including physical and cognitive disability, frailty and mortality. However, the dynamic development of multimorbidity accumulation and its relationship with aging and other predictors has never been evaluated in a large dataset representative of the pouplation. Using rich panel data with health and labor market histories from more than 15,000 individuals followed over a period of 20 years from the Health and Retirement Study in the United States, we study the deterioration of health using a summary index of chronic disease from the first onset of a chronic disease (the end of the `health expectancy') until death. We model latent health by groups of socioeconomic status using an ordered response model in which transition probabilities between different states of frailty, or disease states, are dependent on the first disease onset, health history and health types. We examine the issue of state dependence in health trajectories and model health transitions as a flexible Markov process. 
+</small>
+</details>
+
+
 <!-- ### Publications -->
 <!-- 
 [Title](URL) <br/>
