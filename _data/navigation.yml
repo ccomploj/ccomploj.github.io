@@ -3,7 +3,7 @@ main:
     url: /
   - title: "Research"
     url: /research/
-  - title: "Other"
-    url: /other/    
+  # - title: "Other"
+  #   url: /other/    
   - title: "CV"
     url: /assets/files/cv.pdf   
