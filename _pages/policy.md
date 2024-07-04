@@ -1,4 +1,4 @@
 ---
 permalink: /other/
-title: "Other"
+title: "Other Projects"
 ---
