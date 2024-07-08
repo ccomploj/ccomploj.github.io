@@ -17,6 +17,8 @@ introduction of the New Rural Pension Scheme between 2009 and 2012 in rural Chin
 </small>
 </details>
 
+<a href="https://raw.githubusercontent.com/ccomploj/ccomploj.github.io/main/assets/files/complojPichlerBerg2024_gh.pdf" target="_blank">Download PDF</a>
+
 <!-- 
 need to  find a way to add a pdf here
 -->

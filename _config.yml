@@ -65,7 +65,7 @@ plugins:
 author:
   name   : "Castor Comploj"
   avatar : "/assets/images/profilepic-castor.jpg"
-  bio    : "I'm a doctoral student in Economics at the **University of Groningen**."
+  bio    : "I'm a doctoral candidate in Economics at the **University of Groningen**."
   location: "Groningen, The Netherlands"
   links:
     - label: "Twitter"
