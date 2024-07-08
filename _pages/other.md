@@ -6,9 +6,9 @@ title: "Other Projects"
 
 
 ### Research-related projects
-.do File to reshape wide-to-long g2aging harmonized datasets (HRS, SHARE, ELSA, CHARLS, etc.)<br/>
+Stata .do file to reshape wide-to-long g2aging harmonized datasets (HRS, SHARE, ELSA, CHARLS, etc.)<br/>
 <small>
-<a href="https://github.com/ccomploj/code/tree/947b16e51c29a77b1804e22e3c5d62273491ba15/doFiles/HRS">Link</a>
+<a href="https://github.com/ccomploj/code/tree/947b16e51c29a77b1804e22e3c5d62273491ba15/doFiles/HRS">Link </a>
 </small> <br/>  
 <details>
 <summary><small>Description</small></summary>
