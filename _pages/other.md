@@ -9,7 +9,7 @@ title: "Other Projects"
 Stata .do file to reshape wide-to-long g2aging harmonized datasets (HRS, SHARE, ELSA, CHARLS, etc.)<br/>
 <small>
 <a href="https://github.com/ccomploj/code/tree/947b16e51c29a77b1804e22e3c5d62273491ba15/doFiles/HRS">Link </a>
-</small> <br/>  
+</small> <br/>  a
 <details>
 <summary><small>Description</small></summary>
 <small>
