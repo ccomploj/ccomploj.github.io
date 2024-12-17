@@ -1,6 +1,6 @@
 ---
 title: "Research"
-# permalink: /research/
+permalink: /research/
 ---
 
 
@@ -20,9 +20,6 @@ Our results reveal a pension take-up of 60% among the eligible rural population,
 Download PDF
 <a href="https://raw.githubusercontent.com/ccomploj/ccomploj.github.io/main/assets/files/complojPichlerBerg2024_gh.pdf" target="_blank">Download PDF</a>
 -->
-[//]: # (Links)
-[Gerard van den Berg]: <https://www.rug.nl/staff/gerard.van.den.berg/>
-[Stefan Pichler]: <https://www.rug.nl/staff/s.pichler/cv?lang=en>
 
 <!-- ### Publications -->
 <!-- 
@@ -34,7 +31,7 @@ Download PDF
 </small>
 </details> -->
 
-### Work in Progress
+<!-- ### Work in Progress
 Multimorbidity in SHARE and ELSA <br/>
 <small>(joint with [Luigi Ferrucci], [Agar Brugiavini] and [Elisa Fabbri])</small> <br/>  
 <details>
@@ -49,11 +46,12 @@ and find that the probability within individuals to develop an additional diseas
 current disease count. Heterogeneity analyses suggest that individuals who experienced the first disease onset 
 at older ages present a more rapid health deterioration. We do not find evidence of any disease clusters.
 <small>
-</details>
-
+</details> -->
 
 [//]: # (Links)
 <!-- URL *must* come immediately after 1 space below (otherwise system cannot link) -->
+[Gerard van den Berg]: <https://www.rug.nl/staff/gerard.van.den.berg/>
+[Stefan Pichler]: <https://www.rug.nl/staff/s.pichler/cv?lang=en>
 [Luigi Ferrucci]: <https://www.nia.nih.gov/about/staff/ferrucci-luigi>
 [Agar Brugiavini]: <https://unive.it/data/people/5591624>
 [Elisa Fabbri]: <https://www.unibo.it/sitoweb/elisa.fabbri38/>
