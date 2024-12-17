@@ -10,14 +10,8 @@ Noncontributory Pensions and Mental Health: Evidence from Rural China <br/>
 <details>
 <summary><small>Abstract</small></summary>
 <small>
- The extent to which wealth and public policy can shape mental health outcomes has been
- studied previously, but how noncontributory pensions can, either temporarily or permanently,
- alleviate mental illness remains unclear. This paper exploits the staggered introduction of the
- New Rural Pension Scheme between 2009 and 2012 in a difference-in-differences framework.
- Using CHARLS data from 2011-2018, we reveal an effect of approximately 60% on pension
- take-up, a 900 yuan increase in yearly pension income and crowding out of transfers from
- children and grandchildren. We find positive effects on in mental health and a reduction in
- depressive symptoms, while private intrafamily transfers are crowded out.
+This paper investigates the mental health consequences of noncontributory pensions by leveraging regional and temporal variation in implementation dates of the New Rural Pension Scheme (2009–2012). Using data from the China Health and Retirement Longitudinal Study (CHARLS), we implement a difference-in-difference strategy and compare estimates from a two-way-fixed effect specification with estimators that are robust to heterogenous treatment effects. 
+Our results reveal a pension take-up of 60% among the eligible rural population, a 900-yuan rise in annual pension income, and significant crowding-out of private transfers from children and grandchildren. The results indicate that the new rural pension scheme improves mental health by reducing depressive symptoms, and provide evidence of its broader welfare implications.
 </small>
 </details>
 
