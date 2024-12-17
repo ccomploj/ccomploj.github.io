@@ -6,7 +6,7 @@ permalink: /research/
 
 ### Working Papers
 Noncontributory Pensions and Mental Health: Evidence from Rural China <br/>
-<small>(with [Stefan Pichler] and [Gerard van den Berg])</small> <br/>  
+<small>(joint with [Stefan Pichler] and [Gerard van den Berg])</small> <br/>  
 <details>
 <summary><small>Abstract</small></summary>
 <small>
@@ -36,10 +36,23 @@ need to  find a way to add a pdf here
 </small>
 </details> -->
 
-
-
 ### Work in Progress
-Multimorbidity: permanent costs to bad health <br/>
+Multimorbidity in SHARE and ELSA <br/>
+<small>(joint with [Luigi Ferrucci], [Agar Brugiavini] and [Elisa Fabbri])</small> <br/>  
+<details>
+<summary><small>Abstract</small></summary>
+It is well established that multimorbidity increases with aging and is associated with adverse health
+outcomes, including physical and cognitive disability, frailty and mortality. Using longitudinal data from more
+than 25000 participants to the Survey of Health, Ageing and Retirement in Europe (SHARE)
+and the English Longitudinal Study of Ageing (ELSA), we describe the longitudinal disease trajectories of elderly 
+individuals older than 50 prior to death. 
+We implement a linear mixed model and a generalized ordered logit with flexible coefficients across thresholds,
+and find that the probability within individuals to develop an additional disease accelerates with the 
+current disease count. Heterogeneity analyses suggest that individuals who experienced the first disease onset 
+at older ages present a more rapid health deterioration. We do not find evidence of any disease clusters.
+<small>
+
+Multimorbidity in older Americans: permanent costs to bad health <br/>
 <small>*Draft available on request* </small> <br/>  
 <details>
 <!-- <summary><small>Abstract</small></summary>
@@ -56,4 +69,7 @@ It is well established that multimorbidity increases with aging and is associate
 <!-- URL *must* come immediately after 1 space below (otherwise system cannot link) -->
 [Gerard van den Berg]: <https://www.rug.nl/staff/gerard.van.den.berg/>
 [Stefan Pichler]: <https://www.rug.nl/staff/s.pichler/cv?lang=en>
+[Luigi Ferrucci]: <https://www.nia.nih.gov/about/staff/ferrucci-luigi>
+[Agar Brugiavini]: <https://unive.it/data/people/5591624>
+[Elisa Fabbri]: <https://www.unibo.it/sitoweb/elisa.fabbri38/>
 
