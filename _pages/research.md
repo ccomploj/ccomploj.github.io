@@ -71,7 +71,7 @@ Using rich panel data with health and labor market histories from more than 20,0
 <!-- URL *must* come immediately after 1 space below (otherwise system cannot link) -->
 [Gerard van den Berg]: <https://www.rug.nl/staff/gerard.van.den.berg/>
 [Stefan Pichler]: <https://www.rug.nl/staff/s.pichler/cv?lang=en>
-[Luigi Ferrucci]: <https://www.nia.nih.gov/about/staff/ferrucci-luigi>
+<!-- [Luigi Ferrucci]: <https://www.nia.nih.gov/about/staff/ferrucci-luigi>
 [Agar Brugiavini]: <https://unive.it/data/people/5591624>
-[Elisa Fabbri]: <https://www.unibo.it/sitoweb/elisa.fabbri38/>
+[Elisa Fabbri]: <https://www.unibo.it/sitoweb/elisa.fabbri38/> -->
 
