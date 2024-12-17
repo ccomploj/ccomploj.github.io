@@ -50,6 +50,16 @@ at older ages present a more rapid health deterioration. We do not find evidence
 <small>
 </details>
 
+[//]: # (Links)
+<!-- URL *must* come immediately after 1 space below (otherwise system cannot link) -->
+[Gerard van den Berg]: <https://www.rug.nl/staff/gerard.van.den.berg/>
+[Stefan Pichler]: <https://www.rug.nl/staff/s.pichler/cv?lang=en>
+<!-- [Luigi Ferrucci]: <https://www.nia.nih.gov/about/staff/ferrucci-luigi>
+[Agar Brugiavini]: <https://unive.it/data/people/5591624>
+[Elisa Fabbri]: <https://www.unibo.it/sitoweb/elisa.fabbri38/> -->
+
+
+
 <!-- Health Types in Multimorbidity Transitions: Uncovering Unobserved Heterogeneity in Health<br/>
 <small>*Draft available on request* </small> <br/>  
 <small>*Single authored* </small> <br/>  
@@ -64,12 +74,4 @@ Using rich panel data with health and labor market histories from more than 20,0
 
 
 
-
-[//]: # (Links)
-<!-- URL *must* come immediately after 1 space below (otherwise system cannot link) -->
-[Gerard van den Berg]: <https://www.rug.nl/staff/gerard.van.den.berg/>
-[Stefan Pichler]: <https://www.rug.nl/staff/s.pichler/cv?lang=en>
-<!-- [Luigi Ferrucci]: <https://www.nia.nih.gov/about/staff/ferrucci-luigi>
-[Agar Brugiavini]: <https://unive.it/data/people/5591624>
-[Elisa Fabbri]: <https://www.unibo.it/sitoweb/elisa.fabbri38/> -->
 
