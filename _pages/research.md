@@ -33,7 +33,7 @@ Download PDF
 </small>
 </details> -->
 
-<!-- ### Work in Progress
+### Work in Progress
 Multimorbidity in SHARE and ELSA <br/>
 <small>(joint with [Luigi Ferrucci], [Agar Brugiavini] and [Elisa Fabbri])</small> <br/>  
 <details>
@@ -50,7 +50,7 @@ at older ages present a more rapid health deterioration. We do not find evidence
 <small>
 </details>
 
-Health Types in Multimorbidity Transitions: Uncovering Unobserved Heterogeneity in Health<br/>
+<!-- Health Types in Multimorbidity Transitions: Uncovering Unobserved Heterogeneity in Health<br/>
 <small>*Draft available on request* </small> <br/>  
 <small>*Single authored* </small> <br/>  
 <details>
@@ -59,8 +59,8 @@ Health Types in Multimorbidity Transitions: Uncovering Unobserved Heterogeneity 
 Multimorbidity (having more than one chronic health condition at the same time) increases with aging and is associated with adverse health outcomes, including physical and cognitive disability, frailty and early death. This paper studies how unobserved differences between individuals (i.e. health ``types'') account for differences in the speed of disease accumulation between individuals who are indistinguishable using observed characteristics. 
 Using rich panel data with health and labor market histories from more than 20,000 individuals followed over a period of 20 years from the Health and Retirement Study (HRS) and the Panel Study of Income Dynamics (PSID), we model the transitions between different disease states, or multimorbidity states, using a finite mixture ordered logit that incorporates unobserved heterogeneity between individuals. The model exploits the duration spent in each disease state and the age of onset of other chronic conditions to identify the presence of multiple health types among the elderly, and whether the speed of disease accumulation is dependent on the time of onset of other (un)related conditions that emerge at younger ages. 
 </small>
-</details> -->
-
+</details>
+ -->
 
 
 
