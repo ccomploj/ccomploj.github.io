@@ -44,7 +44,7 @@ Using rich panel data with health and labor market histories from more than 20,0
 
 Multimorbidity in SHARE and ELSA <br/>
 <!-- <small>(joint with [Luigi Ferrucci], [Agar Brugiavini] and [Elisa Fabbri])</small> <br/>   -->
-<small>(joint with somebody)</small> <br/>  
+<!-- <small>(joint with somebody)</small> <br/>  
 <details>
 <summary><small>Abstract</small></summary>
 It is well established that multimorbidity increases with aging and is associated with adverse health
@@ -57,7 +57,7 @@ and find that the probability within individuals to develop an additional diseas
 current disease count. Heterogeneity analyses suggest that individuals who experienced the first disease onset 
 at older ages present a more rapid health deterioration. We do not find evidence of any disease clusters.
 <small>
-</details>
+</details> -->
 
 [//]: # (Links)
 <!-- URL *must* come immediately after 1 space below (otherwise system cannot link) -->
