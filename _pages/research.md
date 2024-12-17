@@ -14,13 +14,10 @@ This paper investigates the mental health consequences of noncontributory pensio
 Our results reveal a pension take-up of 60% among the eligible rural population, a 900-yuan rise in annual pension income, and significant crowding-out of private transfers from children and grandchildren. The results indicate that the new rural pension scheme improves mental health by reducing depressive symptoms, and provide evidence of its broader welfare implications.
 </small>
 </details>
-
-<a href="https://www.econometricsociety.org/regional-activities/conference-papers/view/271/414" target="_blank">Download PDF</a>
-
-
+<a href="https://www.econometricsociety.org/regional-activities/conference-papers/view/271/414" target="_blank">Link</a>
 
 <!-- 
-need to  find a way to add a pdf here
+Download PDF
 <a href="https://raw.githubusercontent.com/ccomploj/ccomploj.github.io/main/assets/files/complojPichlerBerg2024_gh.pdf" target="_blank">Download PDF</a>
 -->
 
@@ -51,6 +48,7 @@ and find that the probability within individuals to develop an additional diseas
 current disease count. Heterogeneity analyses suggest that individuals who experienced the first disease onset 
 at older ages present a more rapid health deterioration. We do not find evidence of any disease clusters.
 <small>
+</details>
 
 Multimorbidity in older Americans: permanent costs to bad health <br/>
 <small>*Draft available on request* </small> <br/>  
