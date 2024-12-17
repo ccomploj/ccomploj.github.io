@@ -54,11 +54,13 @@ at older ages present a more rapid health deterioration. We do not find evidence
 
 Multimorbidity in older Americans: permanent costs to bad health <br/>
 <small>*Draft available on request* </small> <br/>  
+<small>*Single authored* </small> <br/>  
 <details>
-<!-- <summary><small>Abstract</small></summary>
+<summary><small>Abstract</small></summary>
 <small>
-It is well established that multimorbidity increases with aging and is associated with adverse health outcomes, including physical and cognitive disability, frailty and mortality. However, the dynamic development of multimorbidity accumulation and its relationship with aging and other predictors has never been evaluated in a large dataset representative of the pouplation. Using rich panel data with health and labor market histories from more than 15,000 individuals followed over a period of 20 years from the Health and Retirement Study in the United States, we study the deterioration of health using a summary index of chronic disease from the first onset of a chronic disease (the end of the `health expectancy') until death. We model latent health by groups of socioeconomic status using an ordered response model in which transition probabilities between different states of frailty, or disease states, are dependent on the first disease onset, health history and health types. We examine the issue of state dependence in health trajectories and model health transitions as a flexible Markov process. 
-</small> -->
+Multimorbidity (having more than one chronic health condition at the same time) increases with aging and is associated with adverse health outcomes, including physical and cognitive disability, frailty and early death. This paper studies how unobserved differences between individuals (i.e. health ``types'') account for differences in the speed of disease accumulation between individuals who are indistinguishable using observed characteristics. 
+Using rich panel data with health and labor market histories from more than 20,000 individuals followed over a period of 20 years from the Health and Retirement Study (HRS) and the Panel Study of Income Dynamics (PSID), we model the transitions between different disease states, or multimorbidity states, using a finite mixture ordered logit that incorporates unobserved heterogeneity between individuals. The model exploits the duration spent in each disease state and the age of onset of other chronic conditions to identify the presence of multiple health types among the elderly, and whether the speed of disease accumulation is dependent on the time of onset of other (un)related conditions that emerge at younger ages. 
+</small>
 </details>
 
 
