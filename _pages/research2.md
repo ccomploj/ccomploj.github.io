@@ -33,6 +33,7 @@ Download PDF
 
 ### Work in Progress
 Health Types in Multimorbidity Transitions: Uncovering Unobserved Heterogeneity in Health<br/>
+<small>(joint with [Luigi Ferrucci], [Agar Brugiavini] and [Elisa Fabbri])</small> <br/>  
 <small>*Single Authored, Draft available on request* </small> <br/>  
 <details>
 <summary><small>Abstract</small></summary>
