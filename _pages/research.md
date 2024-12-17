@@ -5,22 +5,29 @@ permalink: /research/
 
 
 ### Working Papers
-Cash transfers and mental health: evidence from rural China <br/>
-<small>*Draft available on request* (with [Stefan Pichler] and [Gerard van den Berg])</small> <br/>  
+Noncontributory Pensions and Mental Health: Evidence from Rural China <br/>
+<small>(with [Stefan Pichler] and [Gerard van den Berg])</small> <br/>  
 <details>
 <summary><small>Abstract</small></summary>
 <small>
-The extent to which wealth and public policy can shape mental health outcomes has been
-studied previously, but how cash transfers in the form of noncontributory pensions can, either
-temporarily or permanently, alleviate mental illness remains unclear. This paper exploits the
-introduction of the New Rural Pension Scheme between 2009 and 2012 in rural China in a staggered difference-in-differences design using two-way-fixed effects and other estimators robust to heterogeneous treatment effects. Using CHARLS data from 2011-2018, we find ITT estimates of a 60% on pension takeup, and a 900 yuan increase in yearly pension income. Mental health improves through a reduction on the standardized CESD score by 0.1 SD among the compliers, or 3% fewer people above the threshold for depression. 
+ The extent to which wealth and public policy can shape mental health outcomes has been
+ studied previously, but how noncontributory pensions can, either temporarily or permanently,
+ alleviate mental illness remains unclear. This paper exploits the staggered introduction of the
+ New Rural Pension Scheme between 2009 and 2012 in a difference-in-differences framework.
+ Using CHARLS data from 2011-2018, we reveal an effect of approximately 60% on pension
+ take-up, a 900 yuan increase in yearly pension income and crowding out of transfers from
+ children and grandchildren. We find positive effects on in mental health and a reduction in
+ depressive symptoms, while private intrafamily transfers are crowded out.
 </small>
 </details>
 
-<a href="https://raw.githubusercontent.com/ccomploj/ccomploj.github.io/main/assets/files/complojPichlerBerg2024_gh.pdf" target="_blank">Download PDF</a>
+<a href="https://www.econometricsociety.org/regional-activities/conference-papers/view/271/414" target="_blank">Download PDF</a>
+
+
 
 <!-- 
 need to  find a way to add a pdf here
+<a href="https://raw.githubusercontent.com/ccomploj/ccomploj.github.io/main/assets/files/complojPichlerBerg2024_gh.pdf" target="_blank">Download PDF</a>
 -->
 
 
