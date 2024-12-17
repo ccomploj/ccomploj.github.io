@@ -5,11 +5,10 @@ title: "About me"
 ---
 
 
-I am an applied microeconometrician studying towards a doctoral degree in economics at the [University of Groningen], Faculty of Economics and Business (FEB). 
+I am a doctoral candidate in Economics at the [University of Groningen]. Previously, I have obtained an undergraduate degree in Economics from [Maastricht University] and a research master degree from the University of Groningen.  
+# an applied microeconometrician
 
-I primarily work on topics related to health and labor. I currently study health how elderly transition between different disease states before death using longitudinal retirement data.
-
-Prior to joining the University of Groningen, I have obtained an undergraduate degree in Economics from [Maastricht University] and a research master degree from the University of Groningen. 
+My research interests are in health economics, labor economics, and public economics. In my ongoing research projects I investigate how state-dependence affects health transitions in old-age and how government policies causally impact health outcomes. My research primarily focuses on Chinese institutional settings. 
 
 [//]: # (Links)
    [University of Groningen]: <https://www.rug.nl/feb/?lang=en>
