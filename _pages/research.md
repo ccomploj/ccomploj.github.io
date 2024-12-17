@@ -36,7 +36,7 @@ Download PDF
 
 ### Work in Progress
 Multimorbidity in SHARE and ELSA <br/>
-<!-- <small>(joint with [Luigi Ferrucci], [Agar Brugiavini] and [Elisa Fabbri])</small> <br/>   -->
+<small>(joint with [Luigi Ferrucci], [Agar Brugiavini] and [Elisa Fabbri])</small> <br/>  
 <details>
 <summary><small>Abstract</small></summary>
 It is well established that multimorbidity increases with aging and is associated with adverse health
