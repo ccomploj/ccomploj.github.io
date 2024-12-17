@@ -33,7 +33,7 @@ Download PDF
 </small>
 </details> -->
 
-### Work in Progress
+<!-- ### Work in Progress
 Multimorbidity in SHARE and ELSA <br/>
 <small>(joint with [Luigi Ferrucci], [Agar Brugiavini] and [Elisa Fabbri])</small> <br/>  
 <details>
@@ -48,7 +48,7 @@ and find that the probability within individuals to develop an additional diseas
 current disease count. Heterogeneity analyses suggest that individuals who experienced the first disease onset 
 at older ages present a more rapid health deterioration. We do not find evidence of any disease clusters.
 <small>
-</details>
+</details> -->
 
 [//]: # (Links)
 <!-- URL *must* come immediately after 1 space below (otherwise system cannot link) -->
