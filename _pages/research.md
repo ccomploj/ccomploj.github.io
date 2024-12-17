@@ -51,7 +51,6 @@ at older ages present a more rapid health deterioration. We do not find evidence
 </details>
 
 Multimorbidity in older Americans: permanent costs to bad health <br/>
-<small>*Draft available on request* </small> <br/>  
 <small>*Single authored* </small> <br/>  
 <details>
 <summary><small>Abstract</small></summary>
