@@ -46,15 +46,7 @@ Multimorbidity in SHARE and ELSA <br/>
 <small>(joint with somebody)</small> <br/>  
 <details>
 <summary><small>Abstract</small></summary>
-It is well established that multimorbidity increases with aging and is associated with adverse health
-outcomes, including physical and cognitive disability, frailty and mortality. Using longitudinal data from more
-than 25000 participants to the Survey of Health, Ageing and Retirement in Europe (SHARE)
-and the English Longitudinal Study of Ageing (ELSA), we describe the longitudinal disease trajectories of elderly 
-individuals older than 50 prior to death. 
-We implement a linear mixed model and a generalized ordered logit with flexible coefficients across thresholds,
-and find that the probability within individuals to develop an additional disease accelerates with the 
-current disease count. Heterogeneity analyses suggest that individuals who experienced the first disease onset 
-at older ages present a more rapid health deterioration. We do not find evidence of any disease clusters.
+test
 <small>
 </details>
 
