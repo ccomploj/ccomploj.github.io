@@ -5,7 +5,8 @@ title: "About me"
 ---
 
 
-I am a doctoral candidate in Economics at the [University of Groningen], Faculty of Economics and Business (FEB), Department of Economics, Econometrics and Finance (EEF) since 2022. My doctoral disseration is supervised by [Gerard van den Berg] and [Bertrand Achou]
+I am a doctoral candidate at the Faculty of Economics and Business (FEB), [University of Groningen] (The Netherlands).  My doctoral disseration is supervised by [Gerard van den Berg] and [Bertrand Achou].
+
 Previously, I have obtained an undergraduate degree in Economics from [Maastricht University] and a research master degree from the University of Groningen. 
 <!-- "applied microeconometrician" for job applications
 could add orcid in the future -->
