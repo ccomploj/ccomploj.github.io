@@ -57,9 +57,9 @@ at older ages present a more rapid health deterioration. We do not find evidence
 </small>
 </details>
 
-One-Child Policy fines and informal care: Does family size matter?<br/>
+<!-- One-Child Policy fines and informal care: Does family size matter?<br/>
 <small>(single authored, job market paper)</small> <br/>  
-<!-- <details>
+<details>
 <summary><small>Abstract</small></summary>
 <small>
 </small>
