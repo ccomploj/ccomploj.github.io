@@ -9,7 +9,8 @@ I am a doctoral candidate at the Faculty of Economics and Business (FEB), [Unive
 <!-- I apply causal inference; "applied microeconometrician" for job applications
 could add orcid in the future -->
 
-My research interests are health economics, labor economics, and public economics. In my current research I investigate study the presence of unobserved heterogeneity in health, and how informal care replaces more expensive formal alternatives. 
+My research interests are health economics, labor economics, and public economics. 
+<!-- In my current research I study the presence of unobserved heterogeneity in health, and how informal care replaces more expensive formal alternatives.  -->
 My research focuses primarily on Chinese institutional settings. 
 <!-- I am an applied microeconometrician who works on the economics of aging, particularly the intersection of health, saving behavior, and social insurance. In my job market paper, I examine the determinants of long-term care use, including informal care provision, the need for care, and economic resources.
 Need to add more on money/insurance/costs/
