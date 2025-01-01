@@ -56,8 +56,7 @@ We find that the probability within individuals of developing higher-order disea
 at older ages present a more rapid health deterioration. We do not find evidence of any disease clusters.
 </small>
 </details>
-`
-One-Child Policy fines and informal care: Does family size matter?<br/>
+
 <!-- One-Child Policy fines and informal care: Does family size matter?<br/>
 <small>(single authored, job market paper)</small> <br/>  
 <details>
