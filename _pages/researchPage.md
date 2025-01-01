@@ -33,7 +33,7 @@ Download PDF
 
 ### Work in Progress
 Health Types in Multimorbidity Transitions: Uncovering Unobserved Heterogeneity in Health<br/>
-<small>*Single Authored, Draft available on request* </small> <br/>  
+<small>*Single Authored* </small> <br/>  
 <details>
 <summary><small>Abstract</small></summary>
 <small>
@@ -57,7 +57,13 @@ at older ages present a more rapid health deterioration. We do not find evidence
 </small>
 </details>
 
-
+One-Child Policy fines and informal care: Does family size matter?<br/>
+<small>(single authored, job market paper)</small> <br/>  
+<!-- <details>
+<summary><small>Abstract</small></summary>
+<small>
+</small>
+</details> -->
 
 
 
