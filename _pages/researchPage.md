@@ -56,7 +56,7 @@ In the Chinese labor market Communist Party members have better paying jobs and 
 
 
 ### Work in Progress
-Health Types in Multimorbidity Transitions: Uncovering Unobserved Heterogeneity in Health<br/>
+Duration Dependence in Multimorbidity Accumulation: Health Types and Health Inequality<br/>
 <small>*Single Authored* </small> <br/>  
 <details>
 <summary><small>Abstract</small></summary>
