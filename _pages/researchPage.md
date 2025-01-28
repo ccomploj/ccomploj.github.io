@@ -47,6 +47,15 @@ at older ages present a more rapid health deterioration. We do not find evidence
 </small>
 </details>
 
+Does it pay to join the Party? Decomposing Communist Party effects in China<br/>
+<small>*Single Authored* </small> <br/>  
+<details>
+<summary><small>Abstract</small></summary>
+<small>
+In the Chinese labor market Communist Party members have better paying jobs and are more likely to work in white-collar occupations, but it is difficult to disentangle the party membership effect from the effect coming from unobserved differences in ability. In this paper, I match similar party and non-party members based on their propensity to attain membership using self-reported information about childhood socioeconomic conditions and parental background which are highly predictive of membership status. Using the China Health and Retirement Longitudinal Study (CHARLS), the sister survey of the Health and Retirement Study (HRS), I find that a reduction in lifetime income differences between party and non-party members after conditioning on childhood conditions, but the party premium effect persists. The residual party premium is largest for retirees who previously worked in white-collar occupations, while no residual premium persists in blue-collar occupations or those still employed at the time of the survey. 
+</small>
+</details>
+
 ### Work in Progress
 Health Types in Multimorbidity Transitions: Uncovering Unobserved Heterogeneity in Health<br/>
 <small>*Single Authored* </small> <br/>  
@@ -61,14 +70,7 @@ Using rich panel data with health and labor market histories from more than 20,0
 
 
 
-Does it pay to join the Party? Decomposing Communist Party effects in China<br/>
-<small>*Single Authored* </small> <br/>  
-<details>
-<summary><small>Abstract</small></summary>
-<small>
-In the Chinese labor market Communist Party members have better paying jobs and are more likely to work in white-collar occupations, but it is difficult to disentangle the party membership effect from the effect coming from unobserved differences in ability. In this paper, I match similar party and non-party members based on their propensity to attain membership using self-reported information about childhood socioeconomic conditions and parental background which are highly predictive of membership status. Using the China Health and Retirement Longitudinal Study (CHARLS), the sister survey of the Health and Retirement Study (HRS), I find that a reduction in lifetime income differences between party and non-party members after conditioning on childhood conditions, but the party premium effect persists. The residual party premium is largest for retirees who previously worked in white-collar occupations, while no residual premium persists in blue-collar occupations or those still employed at the time of the survey. 
-</small>
-</details>
+
 
 <!-- One-Child Policy fines and informal care: Does family size matter?<br/>
 <small>(single authored, job market paper)</small> <br/>  
