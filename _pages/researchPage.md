@@ -45,7 +45,7 @@ and the English Longitudinal Study of Ageing (ELSA), we describe the longitudina
 </small>
 </details>
 
-Does it pay to join the Party? Decomposing Communist Party Wage Premium in China<br/>
+Does it pay to join the Party? Decomposing the Communist Party Wage Premium in China<br/>
 <small>*Single Authored* </small> <br/>  
 <details>
 <summary><small>Abstract</small></summary>
