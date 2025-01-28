@@ -10,7 +10,7 @@ I am a doctoral candidate at the Faculty of Economics and Business (FEB), [Unive
 could add orcid in the future -->
 
 My main research areas are health economics, labor economics, and public economics. 
-My main research topics are related to elderly health, particularly cognition and mental health, and addressing socioeconomic differences early in life to reduce health inequalities in adulthood and late in life.
+My main research topics are related to elderly health, particularly cognition and mental health, and addressing socioeconomic differences early in life to reduce health inequalities in later adulthood.
 
 <!-- In my current research I study the presence of unobserved heterogeneity in health, and how informal care replaces more expensive formal alternatives.  -->
 <!-- My research focuses primarily on Chinese institutional settings.  -->
