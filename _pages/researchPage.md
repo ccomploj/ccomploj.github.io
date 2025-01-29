@@ -33,6 +33,22 @@ Download PDF
 </details> -->
 
 
+
+
+
+### Work in Progress
+Duration Dependence in Multimorbidity Accumulation: Health Types and Health Inequality<br/>
+<small>*Single Authored* </small> <br/>  
+<details>
+<summary><small>Abstract</small></summary>
+<small>
+Multimorbidity (having more than one chronic health condition at the same time) increases with aging and is associated with adverse health outcomes, including physical and cognitive disability, frailty and early death. This paper studies how unobserved differences between individuals (i.e. health ``types'') account for differences in the speed of disease accumulation between individuals who are indistinguishable using observed characteristics. 
+Using rich panel data with health and labor market histories from more than 20,000 individuals followed over a period of 20 years from the Health and Retirement Study (HRS) and the Panel Study of Income Dynamics (PSID), we model the transitions between different disease states, or multimorbidity states, using a finite mixture ordered logit that incorporates unobserved heterogeneity. The model exploits the duration spent in each multimorbidity state to identify the presence of multiple health types among the elderly. 
+</small>
+</details>
+
+
+### Other working Papers
 Multimorbidity in SHARE and ELSA<br/>
 <small>(joint with [Luigi Ferrucci], [Agar Brugiavini] and [Elisa Fabbri]) (Epidemiology Paper)</small> <br/>  
 <details>
@@ -53,22 +69,6 @@ Does it pay to join the Party? Decomposing the Communist Party Wage Premium in C
 In the Chinese labor market Communist Party members have better paying jobs and are more likely to work in white-collar occupations, but it is difficult to disentangle the party membership effect from the effect coming from unobserved differences in ability. In this paper, I match similar party and non-party members based on their propensity to attain membership using self-reported information about childhood socioeconomic conditions and parental background which are highly predictive of membership status. Using the China Health and Retirement Longitudinal Study (CHARLS), the sister survey of the Health and Retirement Study (HRS), I find that a reduction in lifetime income differences between party and non-party members after conditioning on childhood conditions, but the party premium effect persists. The residual party premium is largest for retirees who previously worked in white-collar occupations, while no residual premium persists in blue-collar occupations or those still employed at the time of the survey. 
 </small>
 </details>
-
-
-### Work in Progress
-Duration Dependence in Multimorbidity Accumulation: Health Types and Health Inequality<br/>
-<small>*Single Authored* </small> <br/>  
-<details>
-<summary><small>Abstract</small></summary>
-<small>
-Multimorbidity (having more than one chronic health condition at the same time) increases with aging and is associated with adverse health outcomes, including physical and cognitive disability, frailty and early death. This paper studies how unobserved differences between individuals (i.e. health ``types'') account for differences in the speed of disease accumulation between individuals who are indistinguishable using observed characteristics. 
-Using rich panel data with health and labor market histories from more than 20,000 individuals followed over a period of 20 years from the Health and Retirement Study (HRS) and the Panel Study of Income Dynamics (PSID), we model the transitions between different disease states, or multimorbidity states, using a finite mixture ordered logit that incorporates unobserved heterogeneity. The model exploits the duration spent in each multimorbidity state to identify the presence of multiple health types among the elderly. 
-</small>
-</details>
-
-
-
-
 
 
 <!-- One-Child Policy fines and informal care: Does family size matter?<br/>
