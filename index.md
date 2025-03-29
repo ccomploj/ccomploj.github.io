@@ -5,9 +5,10 @@ title: "About me"
 ---
 
 
-I am a doctoral candidate at the Faculty of Economics and Business (FEB), [University of Groningen] in The Netherlands. My advisors are [Gerard van den Berg] and [Bertrand Achou]. Previously, I have obtained an undergraduate degree in Economics from [Maastricht University] in the Netherlands and a research master degree from the University of Groningen. 
+I am a doctoral candidate at the Faculty of Economics and Business (FEB), [University of Groningen] in The Netherlands. Previously, I have obtained an undergraduate degree in Economics from [Maastricht University] in the Netherlands and a research master degree from the University of Groningen. 
 <!-- I apply causal inference; "applied microeconometrician" for job applications
 could add orcid in the future -->
+<!-- My advisors are [Gerard van den Berg] and [Bertrand Achou].  -->
 
 My main research areas are health economics, labor economics, and public economics. 
 My main research topics are related to elderly health, particularly cognition and mental health, and addressing socioeconomic differences early in life to reduce health inequalities in later adulthood.
