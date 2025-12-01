@@ -45,5 +45,5 @@ Need to add more on money/insurance/costs/
  -->
 
 [//]: # (Links)
-   [University of Groningen]: <https://www.rug.nl/feb/?lang=en>
-   [Maastricht University]:   <https://www.maastrichtuniversity.nl/about-um/faculties/school-business-and-economics>
+[University of Groningen]: https://www.rug.nl/feb/?lang=en
+[Maastricht University]: https://www.maastrichtuniversity.nl/about-um/faculties/school-business-and-economics
