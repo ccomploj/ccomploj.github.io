@@ -5,10 +5,12 @@ title: "About me"
 classes: home-page
 ---
 
-<div class="intro-text">
-<p>Thank you for visiting. I am a development economist and applied microeconometrician with a focus on health and social security in China.</p>
+<div class="intro-text" markdown="1">
 
-<p>Currently, I am a doctoral candidate at the Faculty of Economics and Business (FEB), [University of Groningen], The Netherlands. Previously, I obtained an undergraduate degree in Economics from [Maastricht University] in the Netherlands and a research master's degree from the University of Groningen.</p>
+Thank you for visiting. I am a development economist and applied microeconometrician with a focus on health and social security in China.
+
+Currently, I am a doctoral candidate at the Faculty of Economics and Business (FEB), [University of Groningen], The Netherlands. Previously, I obtained an undergraduate degree in Economics from [Maastricht University] in the Netherlands and a research master's degree from the University of Groningen.
+
 </div>
 <!-- I apply causal inference; "applied microeconometrician" for job applications
 could add orcid in the future -->
