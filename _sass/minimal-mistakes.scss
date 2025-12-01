@@ -115,3 +115,377 @@ details[open] summary {
 .paper-entry:last-of-type {
 	margin-bottom: 1em;
 }
+
+/* ========================================================================
+   RESEARCH PAGE CUSTOM STYLING - Minimalist Academic Design
+   ======================================================================== */
+
+.research-intro {
+	font-size: 0.9em;
+	line-height: 1.6;
+	color: #555;
+	margin-bottom: 2em;
+	padding: 1em 0;
+	font-style: italic;
+}
+
+.section-header {
+	margin-top: 3em;
+	margin-bottom: 1.5em;
+	
+	h2 {
+		font-size: 0.95em;
+		font-weight: 700;
+		letter-spacing: 0.1em;
+		text-transform: uppercase;
+		color: #333;
+		border: none;
+		padding: 0;
+		margin: 0;
+	}
+}
+
+.paper-item {
+	margin-bottom: 2.5em;
+	padding-left: 1.2em;
+	border-left: 2px solid #e8e8e8;
+	transition: all 0.2s ease;
+	
+	&:hover {
+		border-left-color: #52adc8;
+		padding-left: 1.5em;
+	}
+}
+
+.paper-meta {
+	display: flex;
+	gap: 0.5em;
+	margin-bottom: 0.5em;
+	align-items: center;
+	flex-wrap: wrap;
+}
+
+.badge {
+	display: inline-block;
+	font-size: 0.7em;
+	font-weight: 600;
+	padding: 0.25em 0.6em;
+	border-radius: 3px;
+	letter-spacing: 0.05em;
+	text-transform: uppercase;
+}
+
+.badge-working {
+	background-color: #e3f2fd;
+	color: #1565c0;
+	border: 1px solid #bbdefb;
+}
+
+.badge-wip {
+	background-color: #fff3e0;
+	color: #e65100;
+	border: 1px solid #ffe0b2;
+}
+
+.badge-collab {
+	background-color: #f3e5f5;
+	color: #6a1b9a;
+	border: 1px solid #e1bee7;
+}
+
+.badge-archive {
+	background-color: #f5f5f5;
+	color: #616161;
+	border: 1px solid #e0e0e0;
+}
+
+.paper-type {
+	font-size: 0.7em;
+	color: #888;
+	font-style: italic;
+}
+
+.paper-title {
+	font-size: 1em;
+	font-weight: 600;
+	line-height: 1.4;
+	margin: 0.3em 0 0.5em 0;
+	color: #2c3e50;
+}
+
+.paper-authors {
+	font-size: 0.85em;
+	color: #666;
+	margin: 0 0 0.8em 0;
+	line-height: 1.4;
+}
+
+.paper-abstract {
+	margin-top: 0.8em;
+	margin-left: 0;
+	padding: 0.6em 1em;
+	background-color: #fafafa;
+	border-left: 2px solid #e0e0e0;
+	border-radius: 0;
+	
+	summary {
+		font-size: 0.8em;
+		font-weight: 600;
+		color: #555;
+		cursor: pointer;
+		padding: 0.2em 0;
+		margin-bottom: 0;
+		
+		&:hover {
+			color: #52adc8;
+		}
+	}
+	
+	&[open] {
+		background-color: #fff;
+		border-left-color: #52adc8;
+		padding: 0.8em 1.2em;
+		box-shadow: 0 1px 3px rgba(0,0,0,0.08);
+	}
+	
+	&[open] summary {
+		margin-bottom: 0.8em;
+		padding-bottom: 0.6em;
+		border-bottom: 1px solid #f0f0f0;
+	}
+}
+
+.abstract-content {
+	font-size: 0.85em;
+	line-height: 1.65;
+	color: #444;
+	
+	p {
+		margin-bottom: 0.8em;
+		
+		&:last-child {
+			margin-bottom: 0;
+		}
+	}
+}
+
+/* Compact the research page overall */
+.research-page {
+	.page__content {
+		font-size: 0.95em;
+		
+		h2 {
+			border-bottom: none;
+		}
+		
+		hr {
+			margin: 2.5em 0;
+			border-top: 1px solid #e8e8e8;
+		}
+	}
+}
+
+/* ========================================================================
+   HOME PAGE CUSTOM STYLING
+   ======================================================================== */
+
+.home-page {
+	.page__content {
+		font-size: 0.95em;
+		
+		h2 {
+			border-bottom: none;
+		}
+	}
+}
+
+.intro-text {
+	font-size: 0.95em;
+	line-height: 1.7;
+	color: #444;
+	margin-bottom: 2.5em;
+	
+	p {
+		margin-bottom: 1em;
+	}
+}
+
+.focus-content {
+	margin-top: 1em;
+}
+
+.focus-intro {
+	font-size: 0.9em;
+	line-height: 1.65;
+	color: #555;
+	margin-bottom: 2em;
+}
+
+.focus-section {
+	margin-bottom: 2em;
+	padding-left: 1em;
+	border-left: 2px solid #e8e8e8;
+}
+
+.focus-title {
+	font-size: 0.85em;
+	font-weight: 700;
+	letter-spacing: 0.05em;
+	text-transform: uppercase;
+	color: #666;
+	margin-bottom: 0.8em;
+}
+
+.compact-list {
+	list-style: none;
+	padding-left: 0;
+	
+	li {
+		font-size: 0.9em;
+		line-height: 1.6;
+		color: #555;
+		margin-bottom: 0.5em;
+		padding-left: 1.2em;
+		position: relative;
+		
+		&:before {
+			content: "—";
+			position: absolute;
+			left: 0;
+			color: #52adc8;
+		}
+	}
+}
+
+.method-text {
+	font-size: 0.9em;
+	line-height: 1.65;
+	color: #555;
+	margin: 0;
+}
+
+/* ========================================================================
+   OTHER PROJECTS PAGE CUSTOM STYLING
+   ======================================================================== */
+
+.other-page {
+	.page__content {
+		font-size: 0.95em;
+		
+		h2 {
+			border-bottom: none;
+		}
+	}
+}
+
+.project-item {
+	margin-bottom: 2.5em;
+	padding-left: 1.2em;
+	border-left: 2px solid #e8e8e8;
+	transition: all 0.2s ease;
+	
+	&:hover {
+		border-left-color: #52adc8;
+		padding-left: 1.5em;
+	}
+}
+
+.project-meta {
+	display: flex;
+	gap: 0.5em;
+	margin-bottom: 0.5em;
+	align-items: center;
+	flex-wrap: wrap;
+}
+
+.badge-code {
+	background-color: #e8f5e9;
+	color: #2e7d32;
+	border: 1px solid #c8e6c9;
+}
+
+.project-type {
+	font-size: 0.7em;
+	color: #888;
+	font-style: italic;
+}
+
+.project-title {
+	font-size: 1em;
+	font-weight: 600;
+	line-height: 1.4;
+	margin: 0.3em 0 0.5em 0;
+	color: #2c3e50;
+}
+
+.project-subtitle {
+	font-size: 0.85em;
+	color: #666;
+	margin: 0 0 0.8em 0;
+	line-height: 1.4;
+}
+
+.project-link {
+	margin: 0.8em 0;
+	
+	a {
+		font-size: 0.85em;
+		color: #52adc8;
+		text-decoration: none;
+		font-weight: 500;
+		
+		&:hover {
+			color: #3d8da8;
+			text-decoration: underline;
+		}
+	}
+}
+
+.project-details {
+	margin-top: 0.8em;
+	margin-left: 0;
+	padding: 0.6em 1em;
+	background-color: #fafafa;
+	border-left: 2px solid #e0e0e0;
+	border-radius: 0;
+	
+	summary {
+		font-size: 0.8em;
+		font-weight: 600;
+		color: #555;
+		cursor: pointer;
+		padding: 0.2em 0;
+		margin-bottom: 0;
+		
+		&:hover {
+			color: #52adc8;
+		}
+	}
+	
+	&[open] {
+		background-color: #fff;
+		border-left-color: #52adc8;
+		padding: 0.8em 1.2em;
+		box-shadow: 0 1px 3px rgba(0,0,0,0.08);
+	}
+	
+	&[open] summary {
+		margin-bottom: 0.8em;
+		padding-bottom: 0.6em;
+		border-bottom: 1px solid #f0f0f0;
+	}
+}
+
+.details-content {
+	font-size: 0.85em;
+	line-height: 1.65;
+	color: #444;
+	
+	p {
+		margin-bottom: 0.8em;
+		
+		&:last-child {
+			margin-bottom: 0;
+		}
+	}
+}

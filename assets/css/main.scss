@@ -117,6 +117,47 @@ table {
   border-color: #52adc8;
 }
 
+/* Fix author profile icon alignment */
+.author__urls.social-icons {
+  li {
+    display: flex;
+    align-items: center;
+    margin-bottom: 0.5em;
+  }
+  
+  a {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 0;
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+  
+  i,
+  .svg-inline--fa {
+    width: 1.25em;
+    text-align: center;
+    margin-right: 0.5em;
+    flex-shrink: 0;
+    display: inline-block;
+  }
+  
+  .label,
+  span[itemprop="name"] {
+    flex: 1;
+    display: inline-block;
+  }
+  
+  /* Ensure location item (without <a>) aligns properly */
+  > i {
+    width: 1.25em;
+    text-align: center;
+    margin-right: 0.5em;
+    flex-shrink: 0;
+  }
+}
+
 /* Smooth scroll behavior */
 html {
   scroll-behavior: smooth;
