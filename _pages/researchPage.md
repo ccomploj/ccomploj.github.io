@@ -5,9 +5,7 @@ permalink: /research/
 
 ## Working Papers
 
-<div class="paper-entry">
-
-**Noncontributory Pensions and Mental Health: Evidence from Rural China**  
+### Noncontributory Pensions and Mental Health: Evidence from Rural China
 <small>Joint with [Stefan Pichler] and [Gerard van den Berg]</small>
 
 <details>
@@ -19,12 +17,8 @@ Our results reveal a pension take-up of 60% among the eligible rural population,
 </small>
 </details>
 
-📄 <a href="https://www.econometricsociety.org/regional-activities/conference-papers/view/271/414" target="_blank">Conference Paper</a>
-
-</div>
-
----
-
+<!-- 📄 <a href="https://www.econometricsociety.org/regional-activities/conference-papers/view/271/414" target="_blank">Conference Paper</a> -->
+<!-- --- -->
 
 <!-- 
 Download PDF
@@ -42,14 +36,9 @@ Download PDF
 </details> -->
 
 
-
-
-
 ## Work in Progress
 
-<div class="paper-entry">
-
-**Duration Dependence in Multimorbidity Accumulation: Health Types and Health Inequality**  
+### Duration Dependence in Multimorbidity Accumulation: Health Types and Health Inequality
 <small>*Single Authored*</small>
 
 <details>
@@ -61,16 +50,12 @@ Using rich panel data with health and labor market histories from more than 20,0
 </small>
 </details>
 
-</div>
-
 ---
 
 
 ## Other Working Papers
 
-<div class="paper-entry">
-
-**Multimorbidity in SHARE and ELSA**  
+### Multimorbidity in SHARE and ELSA
 <small>Joint with [Luigi Ferrucci], [Agar Brugiavini], and [Elisa Fabbri] — *Epidemiology Paper*</small>
 
 <details>
@@ -82,13 +67,9 @@ We implement a linear mixed model and a generalized ordered logit with flexible 
 </small>
 </details>
 
-</div>
-
 ---
 
-<div class="paper-entry">
-
-**Does it Pay to Join the Party? Decomposing the Communist Party Wage Premium in China**  
+### Does it Pay to Join the Party? Decomposing the Communist Party Wage Premium in China
 <small>*Pre-doctoral Work*</small>
 
 <details>
@@ -99,8 +80,6 @@ In the Chinese labor market, Communist Party members have better-paying jobs and
 Using the China Health and Retirement Longitudinal Study (CHARLS) from 2018, I find that after conditioning on childhood conditions, the lifetime income differences between party and non-party members decrease substantially, though the party premium effect persists. The residual premium is largest for retirees who previously worked in white-collar occupations, while no residual premium persists in blue-collar occupations or those still employed at the time of the survey.
 </small>
 </details>
-
-</div>
 
 
 <!-- One-Child Policy fines and informal care: Does family size matter?<br/>
@@ -133,11 +112,11 @@ at older ages present a more rapid health deterioration. We do not find evidence
 
 [//]: # (Links)
 <!-- URL *must* come immediately after 1 space below (otherwise system cannot link) -->
-[Gerard van den Berg]: <https://www.rug.nl/staff/gerard.van.den.berg/>
-[Stefan Pichler]: <https://www.rug.nl/staff/s.pichler/cv?lang=en>
-[Luigi Ferrucci]: <https://www.nia.nih.gov/about/staff/ferrucci-luigi>
-[Agar Brugiavini]: <https://unive.it/data/people/5591624>
-[Elisa Fabbri]: <https://www.unibo.it/sitoweb/elisa.fabbri38/>
+[Gerard van den Berg]: https://www.rug.nl/staff/gerard.van.den.berg/
+[Stefan Pichler]: https://www.rug.nl/staff/s.pichler/cv?lang=en
+[Luigi Ferrucci]: https://irp.nih.gov/pi/luigi-ferrucci
+[Agar Brugiavini]: https://unive.it/data/people/5591624
+[Elisa Fabbri]: https://www.unibo.it/sitoweb/elisa.fabbri38/
 
 
 
