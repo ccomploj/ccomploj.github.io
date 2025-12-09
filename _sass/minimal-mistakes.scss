@@ -4,29 +4,13 @@
  * Licensed under MIT (https://github.com/mmistakes/minimal-mistakes/blob/master/LICENSE)
 */
 
-/* ==========================================================================
-   Creative Minimalist Design Variables
-   ========================================================================== */
-
-/* Refined color palette */
-$accent-teal: #4a9eab;
-$accent-teal-light: #6bb8c4;
-$accent-teal-dark: #3a8a96;
-$warm-black: #1a1a1a;
-$soft-black: #2d2d2d;
-$warm-gray: #5a5a5a;
-$soft-gray: #8a8a8a;
-$mist: #e8e8e8;
-$pearl: #f7f7f7;
-$cream: #fdfcfb;
-
 /* CUSTOM HEADLINE SCALE */
-$h-size-1: 1.45em;
-$h-size-2: 1.15em;
-$h-size-3: 1.05em;
-$h-size-4: 0.95em;
-$h-size-5: 0.9em;
-$h-size-6: 0.85em;
+$h-size-1: 1.45em; // ~25.008px
+$h-size-2: 1.15em; // ~20px
+$h-size-3: 1.05em; // ~18px
+$h-size-4: 0.95em; // ~17px
+$h-size-5: 0.9em; // ~16.5px
+$h-size-6: 0.85em; // ~16px
 
 
 /* Variables */
@@ -35,7 +19,7 @@ $h-size-6: 0.85em;
 /* Mixins and functions */
 @import "minimal-mistakes/vendor/breakpoint/breakpoint";
 @include breakpoint-set("to ems", true);
-@import "minimal-mistakes/vendor/magnific-popup/magnific-popup";
+@import "minimal-mistakes/vendor/magnific-popup/magnific-popup"; // Magnific Popup
 @import "minimal-mistakes/vendor/susy/susy";
 @import "minimal-mistakes/mixins";
 
@@ -65,106 +49,13 @@ $h-size-6: 0.85em;
 @import "minimal-mistakes/print";
 
 
-/* ==========================================================================
-   CREATIVE MINIMALIST CUSTOM STYLES
-   ========================================================================== */
 
-/* Global refinements */
-html {
-	scroll-behavior: smooth;
-}
 
-body {
-	background-color: $cream;
-	-webkit-font-smoothing: antialiased;
-	-moz-osx-font-smoothing: grayscale;
-}
 
-/* Elegant selection color */
-::selection {
-	background: rgba($accent-teal, 0.15);
-	color: $warm-black;
-}
-
-/* Typography enhancements */
-h1, h2, h3, h4, h5, h6 {
-	font-family: $header-font-family;
-	font-weight: 400;
-	letter-spacing: -0.01em;
-	color: $warm-black;
-}
-
-p {
-	font-family: $global-font-family;
-	line-height: 1.7;
-	color: $warm-gray;
-}
-
-/* Refined link styling */
-a {
-	color: $accent-teal;
-	text-decoration: none;
-	transition: color 0.2s ease;
-	
-	&:hover {
-		color: $accent-teal-dark;
-	}
-}
 
 /* CUSTOM UNDERLINE COLOR */
 .greedy-nav .visible-links a:before {
-	background-color: $accent-teal;
-}
-
-/* Masthead refinements */
-.masthead {
-	border-bottom: 1px solid $mist;
-	background: rgba(255, 255, 255, 0.95);
-	backdrop-filter: blur(10px);
-}
-
-.site-title {
-	font-family: $header-font-family;
-	font-weight: 400;
-	letter-spacing: -0.02em;
-}
-
-/* Author profile refinements */
-.author__avatar img {
-	border-radius: 50%;
-	border: 3px solid white;
-	box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
-}
-
-.author__name {
-	font-family: $header-font-family;
-	font-weight: 500;
-	color: $warm-black;
-}
-
-.author__bio {
-	font-size: 0.9em;
-	line-height: 1.6;
-	color: $warm-gray;
-}
-
-/* Page title styling */
-.page__title {
-	font-family: $header-font-family;
-	font-weight: 400;
-	font-size: 1.6em;
-	letter-spacing: -0.02em;
-	color: $warm-black;
-	margin-bottom: 0.5em;
-	
-	&::after {
-		content: "";
-		display: block;
-		width: 40px;
-		height: 2px;
-		background: linear-gradient(90deg, $accent-teal, transparent);
-		margin-top: 0.5em;
-	}
+  background-color: mix(#000, $teal-color, 10%);
 }
 
 
@@ -175,19 +66,19 @@ details {
 	margin-bottom: 1em;
 	padding: 0.75em 1em;
 	color: $text-color;
-	border-left: 3px solid $accent-teal;
-	background-color: mix(#fff, $accent-teal, 97%);
+	border-left: 3px solid $primary-color;
+	background-color: mix(#fff, $primary-color, 97%);
 	border-radius: 4px;
 	transition: all 0.3s ease;
 }
 
 details:hover {
-	background-color: mix(#fff, $accent-teal, 94%);
-	border-left-color: $accent-teal-dark;
+	background-color: mix(#fff, $primary-color, 94%);
+	border-left-color: mix(#000, $primary-color, 20%);
 }
 
 details[open] {
-	background-color: mix(#fff, $accent-teal, 95%);
+	background-color: mix(#fff, $primary-color, 95%);
 	padding: 1em;
 	box-shadow: 0 2px 4px rgba(0,0,0,0.05);
 }
@@ -196,23 +87,23 @@ details summary {
 	cursor: pointer;
 	font-weight: 600;
 	user-select: none;
-	color: $accent-teal;
+	color: $primary-color;
 	outline: none;
 	margin-bottom: 0.5em;
 }
 
 details summary:hover {
-	color: $accent-teal-dark;
+	color: mix(#000, $primary-color, 20%);
 }
 
 details summary::marker {
-	color: $accent-teal;
+	color: $primary-color;
 }
 
 details[open] summary {
 	margin-bottom: 0.75em;
 	padding-bottom: 0.5em;
-	border-bottom: 1px solid mix(#fff, $accent-teal, 85%);
+	border-bottom: 1px solid mix(#fff, $primary-color, 85%);
 }
 
 /* CUSTOM PAPER ENTRY STYLING */
@@ -226,58 +117,42 @@ details[open] summary {
 }
 
 /* ========================================================================
-   RESEARCH PAGE CUSTOM STYLING - Creative Minimalist Design
+   RESEARCH PAGE CUSTOM STYLING - Minimalist Academic Design
    ======================================================================== */
 
 .research-intro {
-	font-family: $header-font-family;
-	font-size: 1em;
-	font-weight: 300;
-	line-height: 1.7;
-	color: $warm-gray;
-	margin-bottom: 2.5em;
-	padding: 1.2em 0;
-	border-bottom: 1px solid $mist;
-	font-style: normal;
+	font-size: 0.9em;
+	line-height: 1.6;
+	color: #555;
+	margin-bottom: 2em;
+	padding: 1em 0;
+	font-style: italic;
 }
 
 .section-header {
-	margin-top: 2.5em;
-	margin-bottom: 1.2em;
+	margin-top: 3em;
+	margin-bottom: 1.5em;
 	
 	h2 {
-		font-family: $global-font-family;
-		font-size: 0.75em;
-		font-weight: 600;
-		letter-spacing: 0.12em;
+		font-size: 0.95em;
+		font-weight: 700;
+		letter-spacing: 0.1em;
 		text-transform: uppercase;
-		color: $soft-gray;
+		color: #333;
 		border: none;
 		padding: 0;
 		margin: 0;
-		display: inline-flex;
-		align-items: center;
-		
-		&::before {
-			content: "";
-			display: inline-block;
-			width: 16px;
-			height: 1px;
-			background: $accent-teal;
-			margin-right: 0.8em;
-		}
 	}
 }
 
-/* Paper items - KEEPING ORIGINAL ANIMATION */
 .paper-item {
-	margin-bottom: 2em;
+	margin-bottom: 2.5em;
 	padding-left: 1.2em;
-	border-left: 2px solid $mist;
+	border-left: 2px solid #e8e8e8;
 	transition: all 0.2s ease;
 	
 	&:hover {
-		border-left-color: $accent-teal;
+		border-left-color: #52adc8;
 		padding-left: 1.5em;
 	}
 }
@@ -285,127 +160,105 @@ details[open] summary {
 .paper-meta {
 	display: flex;
 	gap: 0.5em;
-	margin-bottom: 0.4em;
+	margin-bottom: 0.5em;
 	align-items: center;
 	flex-wrap: wrap;
 }
 
 .badge {
 	display: inline-block;
-	font-family: $global-font-family;
-	font-size: 0.65em;
+	font-size: 0.7em;
 	font-weight: 600;
-	padding: 0.3em 0.7em;
-	border-radius: 20px;
-	letter-spacing: 0.04em;
+	padding: 0.25em 0.6em;
+	border-radius: 3px;
+	letter-spacing: 0.05em;
 	text-transform: uppercase;
 }
 
 .badge-working {
-	background: linear-gradient(135deg, #e8f4f8, #d4eef5);
-	color: #2a7d8c;
-	border: none;
+	background-color: #e3f2fd;
+	color: #1565c0;
+	border: 1px solid #bbdefb;
 }
 
 .badge-wip {
-	background: linear-gradient(135deg, #fef3e6, #fde8d0);
-	color: #c56f1f;
-	border: none;
+	background-color: #fff3e0;
+	color: #e65100;
+	border: 1px solid #ffe0b2;
 }
 
 .badge-collab {
-	background: linear-gradient(135deg, #f5eef8, #ebe0f2);
-	color: #7a4a8f;
-	border: none;
+	background-color: #f3e5f5;
+	color: #6a1b9a;
+	border: 1px solid #e1bee7;
 }
 
 .badge-archive {
-	background: $pearl;
-	color: $soft-gray;
-	border: none;
+	background-color: #f5f5f5;
+	color: #616161;
+	border: 1px solid #e0e0e0;
 }
 
 .paper-type {
-	font-family: $global-font-family;
 	font-size: 0.7em;
-	color: $soft-gray;
+	color: #888;
 	font-style: italic;
 }
 
 .paper-title {
-	font-family: $header-font-family;
-	font-size: 1.05em;
-	font-weight: 500;
-	line-height: 1.45;
-	margin: 0.2em 0 0.4em 0;
-	color: $warm-black;
+	font-size: 1em;
+	font-weight: 600;
+	line-height: 1.4;
+	margin: 0.3em 0 0.5em 0;
+	color: #2c3e50;
 }
 
 .paper-authors {
-	font-family: $global-font-family;
 	font-size: 0.85em;
-	color: $warm-gray;
-	margin: 0 0 0.6em 0;
-	line-height: 1.5;
-	
-	a {
-		color: $accent-teal;
-		border-bottom: 1px solid transparent;
-		
-		&:hover {
-			border-bottom-color: $accent-teal;
-		}
-	}
+	color: #666;
+	margin: 0 0 0.8em 0;
+	line-height: 1.4;
 }
 
 .paper-abstract {
-	margin-top: 0.6em;
+	margin-top: 0.8em;
 	margin-left: 0;
-	padding: 0.7em 1em;
-	background-color: $pearl;
-	border-left: 2px solid $mist;
-	border-radius: 0 4px 4px 0;
-	transition: all 0.2s ease;
+	padding: 0.6em 1em;
+	background-color: #fafafa;
+	border-left: 2px solid #e0e0e0;
+	border-radius: 0;
 	
 	summary {
-		font-family: $global-font-family;
-		font-size: 0.78em;
+		font-size: 0.8em;
 		font-weight: 600;
-		color: $soft-gray;
+		color: #555;
 		cursor: pointer;
 		padding: 0.2em 0;
 		margin-bottom: 0;
-		letter-spacing: 0.02em;
 		
 		&:hover {
-			color: $accent-teal;
+			color: #52adc8;
 		}
 	}
 	
-	&:hover {
-		border-left-color: mix($accent-teal, $mist, 40%);
-	}
-	
 	&[open] {
-		background-color: white;
-		border-left-color: $accent-teal;
+		background-color: #fff;
+		border-left-color: #52adc8;
 		padding: 0.8em 1.2em;
-		box-shadow: 0 2px 12px rgba(0, 0, 0, 0.04);
+		box-shadow: 0 1px 3px rgba(0,0,0,0.08);
 	}
 	
 	&[open] summary {
 		margin-bottom: 0.8em;
 		padding-bottom: 0.6em;
-		border-bottom: 1px solid $mist;
-		color: $accent-teal;
+		border-bottom: 1px solid #f0f0f0;
 	}
 }
 
 .abstract-content {
-	font-family: $global-font-family;
-	font-size: 0.88em;
-	line-height: 1.7;
-	color: $warm-gray;
+	font-size: 0.85em;
+	line-height: 1.65;
+	color: #444;
 	
 	p {
 		margin-bottom: 0.8em;
@@ -427,9 +280,7 @@ details[open] summary {
 		
 		hr {
 			margin: 2.5em 0;
-			border: none;
-			height: 1px;
-			background: linear-gradient(90deg, $mist, transparent);
+			border-top: 1px solid #e8e8e8;
 		}
 	}
 }
@@ -449,52 +300,39 @@ details[open] summary {
 }
 
 .intro-text {
-	font-family: $header-font-family;
-	font-size: 1em;
-	font-weight: 300;
-	line-height: 1.8;
-	color: $warm-gray;
+	font-size: 0.95em;
+	line-height: 1.7;
+	color: #444;
 	margin-bottom: 2.5em;
 	
 	p {
-		margin-bottom: 1.2em;
-	}
-	
-	a {
-		font-weight: 400;
+		margin-bottom: 1em;
 	}
 }
 
 .focus-content {
-	margin-top: 1.5em;
+	margin-top: 1em;
 }
 
 .focus-intro {
-	font-family: $global-font-family;
 	font-size: 0.9em;
-	line-height: 1.7;
-	color: $warm-gray;
+	line-height: 1.65;
+	color: #555;
 	margin-bottom: 2em;
 }
 
 .focus-section {
 	margin-bottom: 2em;
-	padding-left: 1.2em;
-	border-left: 2px solid $mist;
-	transition: border-color 0.2s ease;
-	
-	&:hover {
-		border-left-color: $accent-teal-light;
-	}
+	padding-left: 1em;
+	border-left: 2px solid #e8e8e8;
 }
 
 .focus-title {
-	font-family: $global-font-family;
-	font-size: 0.75em;
-	font-weight: 600;
-	letter-spacing: 0.08em;
+	font-size: 0.85em;
+	font-weight: 700;
+	letter-spacing: 0.05em;
 	text-transform: uppercase;
-	color: $soft-gray;
+	color: #666;
 	margin-bottom: 0.8em;
 }
 
@@ -503,29 +341,26 @@ details[open] summary {
 	padding-left: 0;
 	
 	li {
-		font-family: $global-font-family;
 		font-size: 0.9em;
 		line-height: 1.6;
-		color: $warm-gray;
+		color: #555;
 		margin-bottom: 0.5em;
-		padding-left: 1.4em;
+		padding-left: 1.2em;
 		position: relative;
 		
 		&:before {
 			content: "—";
 			position: absolute;
 			left: 0;
-			color: $accent-teal;
-			font-weight: 300;
+			color: #52adc8;
 		}
 	}
 }
 
 .method-text {
-	font-family: $global-font-family;
 	font-size: 0.9em;
-	line-height: 1.7;
-	color: $warm-gray;
+	line-height: 1.65;
+	color: #555;
 	margin: 0;
 }
 
@@ -543,15 +378,14 @@ details[open] summary {
 	}
 }
 
-/* Project items - KEEPING ORIGINAL ANIMATION */
 .project-item {
-	margin-bottom: 2em;
+	margin-bottom: 2.5em;
 	padding-left: 1.2em;
-	border-left: 2px solid $mist;
+	border-left: 2px solid #e8e8e8;
 	transition: all 0.2s ease;
 	
 	&:hover {
-		border-left-color: $accent-teal;
+		border-left-color: #52adc8;
 		padding-left: 1.5em;
 	}
 }
@@ -559,140 +393,99 @@ details[open] summary {
 .project-meta {
 	display: flex;
 	gap: 0.5em;
-	margin-bottom: 0.4em;
+	margin-bottom: 0.5em;
 	align-items: center;
 	flex-wrap: wrap;
 }
 
 .badge-code {
-	background: linear-gradient(135deg, #e8f5e9, #d4edda);
+	background-color: #e8f5e9;
 	color: #2e7d32;
-	border: none;
+	border: 1px solid #c8e6c9;
 }
 
 .project-type {
-	font-family: $global-font-family;
 	font-size: 0.7em;
-	color: $soft-gray;
+	color: #888;
 	font-style: italic;
 }
 
 .project-title {
-	font-family: $header-font-family;
-	font-size: 1.05em;
-	font-weight: 500;
-	line-height: 1.45;
-	margin: 0.2em 0 0.4em 0;
-	color: $warm-black;
+	font-size: 1em;
+	font-weight: 600;
+	line-height: 1.4;
+	margin: 0.3em 0 0.5em 0;
+	color: #2c3e50;
 }
 
 .project-subtitle {
-	font-family: $global-font-family;
 	font-size: 0.85em;
-	color: $warm-gray;
-	margin: 0 0 0.6em 0;
-	line-height: 1.5;
+	color: #666;
+	margin: 0 0 0.8em 0;
+	line-height: 1.4;
 }
 
 .project-link {
-	margin: 0.6em 0;
+	margin: 0.8em 0;
 	
 	a {
-		font-family: $global-font-family;
 		font-size: 0.85em;
-		color: $accent-teal;
+		color: #52adc8;
 		text-decoration: none;
 		font-weight: 500;
-		display: inline-flex;
-		align-items: center;
-		
-		&::after {
-			content: "→";
-			margin-left: 0.4em;
-			transition: transform 0.2s ease;
-		}
 		
 		&:hover {
-			color: $accent-teal-dark;
-			
-			&::after {
-				transform: translateX(3px);
-			}
+			color: #3d8da8;
+			text-decoration: underline;
 		}
 	}
 }
 
 .project-details {
-	margin-top: 0.6em;
+	margin-top: 0.8em;
 	margin-left: 0;
-	padding: 0.7em 1em;
-	background-color: $pearl;
-	border-left: 2px solid $mist;
-	border-radius: 0 4px 4px 0;
-	transition: all 0.2s ease;
+	padding: 0.6em 1em;
+	background-color: #fafafa;
+	border-left: 2px solid #e0e0e0;
+	border-radius: 0;
 	
 	summary {
-		font-family: $global-font-family;
-		font-size: 0.78em;
+		font-size: 0.8em;
 		font-weight: 600;
-		color: $soft-gray;
+		color: #555;
 		cursor: pointer;
 		padding: 0.2em 0;
 		margin-bottom: 0;
-		letter-spacing: 0.02em;
 		
 		&:hover {
-			color: $accent-teal;
+			color: #52adc8;
 		}
 	}
 	
-	&:hover {
-		border-left-color: mix($accent-teal, $mist, 40%);
-	}
-	
 	&[open] {
-		background-color: white;
-		border-left-color: $accent-teal;
+		background-color: #fff;
+		border-left-color: #52adc8;
 		padding: 0.8em 1.2em;
-		box-shadow: 0 2px 12px rgba(0, 0, 0, 0.04);
+		box-shadow: 0 1px 3px rgba(0,0,0,0.08);
 	}
 	
 	&[open] summary {
 		margin-bottom: 0.8em;
 		padding-bottom: 0.6em;
-		border-bottom: 1px solid $mist;
-		color: $accent-teal;
+		border-bottom: 1px solid #f0f0f0;
 	}
 }
 
 .details-content {
-	font-family: $global-font-family;
-	font-size: 0.88em;
-	line-height: 1.7;
-	color: $warm-gray;
+	font-size: 0.85em;
+	line-height: 1.65;
+	color: #444;
 	
 	p {
 		margin-bottom: 0.8em;
 		
 		&:last-child {
 			margin-bottom: 0;
-		}
-	}
-}
-
-/* ========================================================================
-   FOOTER REFINEMENTS
-   ======================================================================== */
-
-.page__footer {
-	background: $soft-black;
-	color: rgba(255, 255, 255, 0.7);
-	
-	a {
-		color: rgba(255, 255, 255, 0.8);
-		
-		&:hover {
-			color: $accent-teal-light;
 		}
 	}
 }
