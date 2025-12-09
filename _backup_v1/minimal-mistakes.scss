@@ -1,0 +1,759 @@
+/*!
+ * Minimal Mistakes Jekyll Theme - Artistic Redesign
+ * Original by Michael Rose | Customized for Academic Portfolio
+ */
+
+/* Variables */
+@import "minimal-mistakes/variables";
+
+/* Mixins and functions */
+@import "minimal-mistakes/vendor/breakpoint/breakpoint";
+@include breakpoint-set("to ems", true);
+@import "minimal-mistakes/vendor/magnific-popup/magnific-popup";
+@import "minimal-mistakes/vendor/susy/susy";
+@import "minimal-mistakes/mixins";
+
+/* Core CSS */
+@import "minimal-mistakes/reset";
+@import "minimal-mistakes/base";
+@import "minimal-mistakes/forms";
+@import "minimal-mistakes/tables";
+@import "minimal-mistakes/animations";
+
+/* Components */
+@import "minimal-mistakes/buttons";
+@import "minimal-mistakes/notices";
+@import "minimal-mistakes/masthead";
+@import "minimal-mistakes/navigation";
+@import "minimal-mistakes/footer";
+@import "minimal-mistakes/search";
+@import "minimal-mistakes/syntax";
+
+/* Utility classes */
+@import "minimal-mistakes/utilities";
+
+/* Layout specific */
+@import "minimal-mistakes/page";
+@import "minimal-mistakes/archive";
+@import "minimal-mistakes/sidebar";
+@import "minimal-mistakes/print";
+
+
+/* ==========================================================================
+   ARTISTIC CUSTOM STYLES
+   ========================================================================== */
+
+/* 
+   Global Artistic Elements
+   ========================================================================== */
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: $background-color;
+}
+
+::selection {
+  background: rgba($teal-primary, 0.15);
+  color: $ink-black;
+}
+
+/* 
+   Typography Enhancements
+   ========================================================================== */
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: $header-font-family;
+  font-weight: 400;
+  letter-spacing: -0.01em;
+  color: $ink-black;
+}
+
+.page__content {
+  h2 {
+    position: relative;
+    margin-top: 2.5em;
+    padding-bottom: 0.5em;
+    
+    &::after {
+      content: "";
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      width: 3em;
+      height: 2px;
+      background: linear-gradient(90deg, $copper, transparent);
+    }
+  }
+  
+  p {
+    line-height: 1.8;
+    color: mix($ink-black, $warm-gray, 80%);
+  }
+  
+  a:not(.btn) {
+    color: $teal-primary;
+    text-decoration: none;
+    border-bottom: 1px solid rgba($teal-light, 0.4);
+    transition: all 0.2s ease;
+    
+    &:hover {
+      border-bottom-color: $teal-primary;
+    }
+  }
+}
+
+/* 
+   Masthead - Refined Navigation
+   ========================================================================== */
+
+.masthead {
+  background: rgba($cream, 0.97);
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+  border-bottom: 1px solid rgba($mist, 0.7);
+}
+
+.site-title {
+  font-family: $header-font-family;
+  font-size: 1.1em;
+  font-weight: 400;
+  letter-spacing: 0.01em;
+}
+
+.greedy-nav {
+  .visible-links {
+    a {
+      position: relative;
+      font-size: 0.85em;
+      font-weight: 500;
+      letter-spacing: 0.02em;
+      text-transform: uppercase;
+      color: $warm-gray;
+      
+      &::before {
+        content: "";
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 0;
+        height: 2px;
+        background: $teal-primary;
+        transition: width 0.3s ease;
+      }
+      
+      &:hover {
+        color: $ink-black;
+        
+        &::before {
+          width: 100%;
+        }
+      }
+    }
+  }
+}
+
+/* 
+   Author Profile - Elegant Sidebar
+   ========================================================================== */
+
+.author__avatar {
+  img {
+    max-width: 140px;
+    border-radius: 50%;
+    border: 3px solid $cream;
+    box-shadow: 
+      0 0 0 1px rgba($teal-primary, 0.1),
+      0 8px 30px rgba($ink-black, 0.1);
+    transition: all 0.4s ease;
+    
+    &:hover {
+      transform: scale(1.02);
+      box-shadow: 
+        0 0 0 2px rgba($teal-primary, 0.2),
+        0 12px 40px rgba($ink-black, 0.12);
+    }
+  }
+}
+
+.author__name {
+  font-family: $header-font-family;
+  font-size: 1.15em;
+  font-weight: 400;
+}
+
+.author__bio {
+  font-size: 0.9em;
+  color: $warm-gray;
+  line-height: 1.6;
+}
+
+.author__urls {
+  a {
+    font-size: 0.85em;
+    color: $warm-gray;
+    transition: all 0.2s ease;
+    
+    &:hover {
+      color: $teal-primary;
+    }
+    
+    .fas, .fab, .far {
+      color: $soft-gray;
+      transition: color 0.2s ease;
+    }
+    
+    &:hover .fas,
+    &:hover .fab,
+    &:hover .far {
+      color: $teal-primary;
+    }
+  }
+}
+
+/* 
+   Page Content
+   ========================================================================== */
+
+.page__title {
+  font-family: $header-font-family;
+  font-size: 1.8em;
+  font-weight: 400;
+  letter-spacing: -0.01em;
+  
+  &::after {
+    content: "";
+    display: block;
+    width: 2em;
+    height: 3px;
+    margin-top: 0.5em;
+    background: linear-gradient(90deg, $copper, $copper-light);
+    border-radius: 2px;
+  }
+}
+
+/* 
+   Research Page Styling
+   ========================================================================== */
+
+.research-intro {
+  font-size: 1em;
+  line-height: 1.8;
+  color: $warm-gray;
+  margin-bottom: 2.5em;
+  padding: 1.2em 0;
+  border-bottom: 1px solid $mist;
+  font-style: italic;
+}
+
+.section-header {
+  margin-top: 3em;
+  margin-bottom: 1.5em;
+  
+  h2 {
+    display: inline-flex;
+    align-items: center;
+    font-size: 0.85em;
+    font-family: $sans-serif;
+    font-weight: 600;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    color: $warm-gray;
+    
+    &::before {
+      content: "";
+      display: inline-block;
+      width: 1.5em;
+      height: 1px;
+      background: $copper;
+      margin-right: 0.8em;
+    }
+    
+    &::after {
+      display: none;
+    }
+  }
+}
+
+.paper-item {
+  position: relative;
+  margin-bottom: 2em;
+  padding: 1.5em;
+  background: white;
+  border: 1px solid transparent;
+  border-radius: 8px;
+  transition: all 0.3s ease;
+  
+  &::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 3px;
+    height: 100%;
+    background: linear-gradient(180deg, $teal-light, $teal-primary);
+    border-radius: 8px 0 0 8px;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+  }
+  
+  &:hover {
+    border-color: $mist;
+    box-shadow: 0 8px 30px rgba($ink-black, 0.06);
+    
+    &::before {
+      opacity: 1;
+    }
+  }
+}
+
+.paper-meta {
+  display: flex;
+  gap: 0.6em;
+  margin-bottom: 0.8em;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.badge {
+  display: inline-block;
+  font-size: 0.65em;
+  font-weight: 600;
+  padding: 0.35em 0.7em;
+  border-radius: 4px;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+
+.badge-working {
+  background: linear-gradient(135deg, $teal-mist, white);
+  color: $teal-deep;
+  border: 1px solid rgba($teal-primary, 0.2);
+}
+
+.badge-wip {
+  background: linear-gradient(135deg, $copper-mist, white);
+  color: $copper;
+  border: 1px solid rgba($copper, 0.2);
+}
+
+.badge-collab {
+  background: linear-gradient(135deg, #f3e8ff, white);
+  color: #7c3aed;
+  border: 1px solid rgba(#7c3aed, 0.2);
+}
+
+.badge-archive {
+  background: linear-gradient(135deg, $pearl, white);
+  color: $warm-gray;
+  border: 1px solid $mist;
+}
+
+.paper-type {
+  font-size: 0.7em;
+  color: $soft-gray;
+  font-style: italic;
+}
+
+.paper-title {
+  font-family: $header-font-family;
+  font-size: 1.1em;
+  font-weight: 400;
+  line-height: 1.5;
+  margin: 0 0 0.5em 0;
+  color: $ink-black;
+}
+
+.paper-authors {
+  font-size: 0.9em;
+  color: $warm-gray;
+  margin: 0;
+  
+  a {
+    color: $teal-primary;
+    border-bottom: none;
+    
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+}
+
+.paper-abstract {
+  margin-top: 1em;
+  border: none;
+  background: transparent;
+  padding: 0;
+  
+  summary {
+    display: inline-flex;
+    align-items: center;
+    font-size: 0.8em;
+    font-weight: 500;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    color: $teal-primary;
+    cursor: pointer;
+    padding: 0.4em 0;
+    
+    &::before {
+      content: "→";
+      margin-right: 0.5em;
+      transition: transform 0.2s ease;
+    }
+    
+    &:hover {
+      color: $teal-deep;
+    }
+    
+    &::marker,
+    &::-webkit-details-marker {
+      display: none;
+    }
+  }
+  
+  &[open] summary::before {
+    transform: rotate(90deg);
+  }
+  
+  &[open] {
+    padding: 0;
+    background: transparent;
+    box-shadow: none;
+  }
+}
+
+.abstract-content {
+  margin-top: 0.8em;
+  padding: 1.2em;
+  background: $pearl;
+  border-radius: 6px;
+  border-left: 2px solid $teal-light;
+  
+  p {
+    font-size: 0.9em;
+    line-height: 1.7;
+    color: $warm-gray;
+    margin-bottom: 0.8em;
+    
+    &:last-child {
+      margin-bottom: 0;
+    }
+  }
+}
+
+/* 
+   Home Page Styling
+   ========================================================================== */
+
+.intro-text,
+.home-intro {
+  font-size: 1.05em;
+  line-height: 1.85;
+  color: mix($ink-black, $warm-gray, 70%);
+  margin-bottom: 2em;
+  
+  a {
+    font-weight: 500;
+  }
+}
+
+.focus-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 1.2em;
+  margin: 2em 0;
+}
+
+.focus-card {
+  padding: 1.3em;
+  background: white;
+  border: 1px solid $mist;
+  border-radius: 8px;
+  transition: all 0.3s ease;
+  
+  &:hover {
+    border-color: $teal-light;
+    box-shadow: 0 6px 25px rgba($ink-black, 0.05);
+  }
+  
+  h3 {
+    font-size: 0.75em;
+    font-family: $sans-serif;
+    font-weight: 600;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: $teal-primary;
+    margin-bottom: 0.7em;
+    
+    &::after {
+      display: none;
+    }
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    
+    li {
+      position: relative;
+      padding-left: 1em;
+      font-size: 0.9em;
+      color: $warm-gray;
+      margin-bottom: 0.35em;
+      
+      &::before {
+        content: "·";
+        position: absolute;
+        left: 0;
+        color: $copper;
+        font-weight: bold;
+      }
+    }
+  }
+}
+
+.focus-content {
+  margin-top: 1em;
+}
+
+.focus-section {
+  margin-bottom: 2em;
+  padding-left: 1em;
+  border-left: 2px solid $mist;
+}
+
+.focus-title {
+  font-size: 0.8em;
+  font-weight: 600;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  color: $teal-primary;
+  margin-bottom: 0.7em;
+}
+
+.compact-list {
+  list-style: none;
+  padding-left: 0;
+  
+  li {
+    font-size: 0.9em;
+    line-height: 1.6;
+    color: $warm-gray;
+    margin-bottom: 0.4em;
+    padding-left: 1.2em;
+    position: relative;
+    
+    &:before {
+      content: "—";
+      position: absolute;
+      left: 0;
+      color: $copper;
+    }
+  }
+}
+
+/* 
+   Other Projects Page
+   ========================================================================== */
+
+.project-item {
+  margin-bottom: 2em;
+  padding: 1.5em;
+  background: white;
+  border: 1px solid transparent;
+  border-radius: 8px;
+  transition: all 0.3s ease;
+  
+  &:hover {
+    border-color: $mist;
+    box-shadow: 0 8px 30px rgba($ink-black, 0.06);
+  }
+}
+
+.project-meta {
+  display: flex;
+  gap: 0.6em;
+  margin-bottom: 0.8em;
+  align-items: center;
+}
+
+.badge-code {
+  background: linear-gradient(135deg, #ecfdf5, white);
+  color: #059669;
+  border: 1px solid rgba(#059669, 0.2);
+}
+
+.project-title {
+  font-family: $header-font-family;
+  font-size: 1.1em;
+  font-weight: 400;
+  margin: 0 0 0.5em 0;
+  color: $ink-black;
+}
+
+.project-subtitle {
+  font-size: 0.9em;
+  color: $warm-gray;
+  margin: 0;
+}
+
+/* 
+   Footer
+   ========================================================================== */
+
+.page__footer {
+  background: $charcoal;
+  color: rgba(white, 0.6);
+  margin-top: 4em;
+  
+  a {
+    color: rgba(white, 0.7);
+    
+    &:hover {
+      color: $teal-light;
+    }
+  }
+}
+
+.page__footer-copyright {
+  font-size: 0.8em;
+  color: rgba(white, 0.4);
+}
+
+/* 
+   Buttons
+   ========================================================================== */
+
+.btn {
+  font-family: $sans-serif;
+  font-size: 0.85em;
+  font-weight: 500;
+  letter-spacing: 0.02em;
+  padding: 0.65em 1.4em;
+  border-radius: 6px;
+  transition: all 0.3s ease;
+  
+  &--primary {
+    background: $teal-primary;
+    color: white;
+    
+    &:hover {
+      background: $teal-deep;
+      transform: translateY(-1px);
+      box-shadow: 0 4px 12px rgba($teal-primary, 0.25);
+    }
+  }
+  
+  &--inverse {
+    background: white;
+    color: $ink-black;
+    border: 1px solid $mist;
+    
+    &:hover {
+      border-color: $teal-light;
+      color: $teal-primary;
+    }
+  }
+}
+
+/* 
+   Decorative Elements
+   ========================================================================== */
+
+hr {
+  border: none;
+  height: 1px;
+  background: linear-gradient(90deg, transparent, $mist, transparent);
+  margin: 2.5em 0;
+}
+
+blockquote {
+  padding: 1.2em 1.5em;
+  margin: 1.5em 0;
+  background: $pearl;
+  border-left: 3px solid $copper;
+  border-radius: 0 6px 6px 0;
+  font-style: italic;
+  color: $warm-gray;
+}
+
+/* 
+   Notices
+   ========================================================================== */
+
+.notice--info {
+  background: linear-gradient(135deg, $teal-mist, white);
+  border-left: 3px solid $teal-primary;
+  border-radius: 6px;
+}
+
+/* 
+   General Details/Accordion
+   ========================================================================== */
+
+details:not(.paper-abstract):not(.project-details) {
+  margin: 1em 0;
+  padding: 1em 1.2em;
+  background: $pearl;
+  border-radius: 6px;
+  border: 1px solid $mist;
+  
+  summary {
+    cursor: pointer;
+    font-weight: 500;
+    color: $ink-black;
+    
+    &:hover {
+      color: $teal-primary;
+    }
+  }
+  
+  &[open] {
+    background: white;
+    box-shadow: 0 4px 15px rgba($ink-black, 0.04);
+  }
+}
+
+/* 
+   Accessibility
+   ========================================================================== */
+
+:focus-visible {
+  outline: 2px solid $teal-primary;
+  outline-offset: 2px;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  * {
+    animation-duration: 0.01ms !important;
+    transition-duration: 0.01ms !important;
+  }
+}
+
+/* 
+   Mobile Optimizations
+   ========================================================================== */
+
+@media (max-width: 768px) {
+  .page__title::after {
+    width: 1.5em;
+  }
+  
+  .paper-item {
+    padding: 1em;
+    margin-bottom: 1.5em;
+  }
+  
+  .section-header h2::before {
+    width: 1em;
+    margin-right: 0.5em;
+  }
+  
+  .focus-grid {
+    grid-template-columns: 1fr;
+  }
+}
