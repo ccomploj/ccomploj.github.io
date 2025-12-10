@@ -489,3 +489,259 @@ details[open] summary {
 		}
 	}
 }
+
+/* ========================================================================
+   ENHANCED RESEARCH PAGE - Clean Markdown with Animated Cards
+   ======================================================================== */
+
+/* Research paper card styling */
+.page__content {
+	/* Style h3 elements as paper cards */
+	h3 {
+		font-size: 1.05em;
+		font-weight: 600;
+		color: #2c3e50;
+		margin-top: 2em;
+		margin-bottom: 0.5em;
+		padding: 1em 1.2em;
+		background: linear-gradient(135deg, #fafbfc 0%, #f5f7f9 100%);
+		border-left: 3px solid #52adc8;
+		border-radius: 0 8px 8px 0;
+		box-shadow: 0 2px 8px rgba(0,0,0,0.04);
+		transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+		position: relative;
+		overflow: hidden;
+		
+		&:before {
+			content: '';
+			position: absolute;
+			top: 0;
+			left: 0;
+			width: 3px;
+			height: 100%;
+			background: linear-gradient(180deg, #52adc8 0%, #7fc4d8 100%);
+			transition: width 0.3s ease;
+		}
+		
+		&:hover {
+			transform: translateX(8px);
+			box-shadow: 0 6px 20px rgba(82, 173, 200, 0.15);
+			background: linear-gradient(135deg, #ffffff 0%, #f8fafb 100%);
+			
+			&:before {
+				width: 5px;
+			}
+		}
+	}
+	
+	/* Style italics after h3 as author info */
+	h3 + p em,
+	h3 + p > em:first-child {
+		display: block;
+		font-size: 0.88em;
+		color: #666;
+		margin-top: -0.5em;
+		margin-bottom: 1em;
+		padding-left: 1.2em;
+		font-style: italic;
+	}
+	
+	/* Style strong text as status badges */
+	h3 ~ p strong {
+		display: inline-block;
+		font-size: 0.72em;
+		font-weight: 600;
+		padding: 0.3em 0.8em;
+		margin-left: 1em;
+		background: linear-gradient(135deg, #e8f4f8 0%, #d4eef5 100%);
+		color: #2980b9;
+		border-radius: 20px;
+		letter-spacing: 0.03em;
+		text-transform: uppercase;
+		animation: pulse-subtle 3s ease-in-out infinite;
+	}
+}
+
+@keyframes pulse-subtle {
+	0%, 100% { opacity: 1; }
+	50% { opacity: 0.85; }
+}
+
+/* Enhanced details/abstract styling */
+.page__content details {
+	margin: 0.8em 0 2em 1.2em;
+	padding: 0;
+	background: transparent;
+	border: none;
+	border-left: 2px solid #e8e8e8;
+	border-radius: 0;
+	transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+	
+	&:hover {
+		border-left-color: #52adc8;
+		padding-left: 0.5em;
+		background: linear-gradient(90deg, rgba(82, 173, 200, 0.03) 0%, transparent 100%);
+	}
+	
+	summary {
+		font-size: 0.82em;
+		font-weight: 600;
+		color: #52adc8;
+		cursor: pointer;
+		padding: 0.6em 1em;
+		margin: 0;
+		display: flex;
+		align-items: center;
+		gap: 0.5em;
+		transition: all 0.2s ease;
+		
+		&:before {
+			content: '▸';
+			font-size: 0.9em;
+			transition: transform 0.3s ease;
+		}
+		
+		&:hover {
+			color: #3d8da8;
+			background: rgba(82, 173, 200, 0.05);
+		}
+		
+		&::marker {
+			display: none;
+		}
+	}
+	
+	&[open] {
+		background: linear-gradient(135deg, #fafcfd 0%, #f5f9fa 100%);
+		border-left: 3px solid #52adc8;
+		padding: 0;
+		box-shadow: inset 0 0 20px rgba(82, 173, 200, 0.03);
+		
+		summary {
+			background: rgba(82, 173, 200, 0.08);
+			border-bottom: 1px solid rgba(82, 173, 200, 0.1);
+			margin-bottom: 0;
+			
+			&:before {
+				transform: rotate(90deg);
+			}
+		}
+		
+		p {
+			padding: 1em 1.2em;
+			margin: 0;
+			font-size: 0.88em;
+			line-height: 1.75;
+			color: #444;
+			animation: fadeIn 0.4s ease;
+		}
+	}
+}
+
+@keyframes fadeIn {
+	from { opacity: 0; transform: translateY(-5px); }
+	to { opacity: 1; transform: translateY(0); }
+}
+
+/* Section headers (h2) styling */
+.page__content h2 {
+	font-size: 0.85em;
+	font-weight: 700;
+	letter-spacing: 0.15em;
+	text-transform: uppercase;
+	color: #666;
+	margin-top: 3em;
+	margin-bottom: 1.5em;
+	padding-bottom: 0.8em;
+	border-bottom: 2px solid #f0f0f0;
+	position: relative;
+	
+	&:after {
+		content: '';
+		position: absolute;
+		bottom: -2px;
+		left: 0;
+		width: 60px;
+		height: 2px;
+		background: linear-gradient(90deg, #52adc8 0%, transparent 100%);
+	}
+}
+
+/* Horizontal rule as section divider */
+.page__content hr {
+	border: none;
+	height: 1px;
+	background: linear-gradient(90deg, transparent 0%, #e0e0e0 50%, transparent 100%);
+	margin: 2.5em 0;
+}
+
+/* List items with animated bullets */
+.page__content ul {
+	list-style: none;
+	padding-left: 0;
+	
+	li {
+		position: relative;
+		padding-left: 1.5em;
+		margin-bottom: 0.6em;
+		font-size: 0.92em;
+		line-height: 1.6;
+		color: #555;
+		transition: all 0.2s ease;
+		
+		&:before {
+			content: '→';
+			position: absolute;
+			left: 0;
+			color: #52adc8;
+			font-weight: 500;
+			transition: transform 0.2s ease;
+		}
+		
+		&:hover {
+			color: #333;
+			padding-left: 1.8em;
+			
+			&:before {
+				transform: translateX(3px);
+			}
+		}
+	}
+}
+
+/* Link styling with underline animation */
+.page__content a {
+	color: #52adc8;
+	text-decoration: none;
+	position: relative;
+	transition: color 0.2s ease;
+	
+	&:after {
+		content: '';
+		position: absolute;
+		bottom: -2px;
+		left: 0;
+		width: 0;
+		height: 1px;
+		background: #52adc8;
+		transition: width 0.3s ease;
+	}
+	
+	&:hover {
+		color: #3d8da8;
+		
+		&:after {
+			width: 100%;
+		}
+	}
+}
+
+/* Intro paragraph styling */
+.page__content > p:first-of-type {
+	font-size: 1em;
+	line-height: 1.8;
+	color: #555;
+	padding: 1em 0;
+	border-bottom: 1px solid #f0f0f0;
+	margin-bottom: 2em;
+}

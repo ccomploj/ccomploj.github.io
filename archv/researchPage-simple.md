@@ -1,6 +1,6 @@
 ---
 title: "Research"
-permalink: /research/
+permalink: /research-simple/
 ---
 
 My research primarily examines behavioral and health responses to public policies. I previously used retirement data from China, the US and Europe to estimate my models. I employ microeconometrics methods and causal inference, and am proficient in Stata, Python, R and LaTeX.
@@ -72,10 +72,3 @@ Using the China Health and Retirement Longitudinal Study (CHARLS) from 2018, I f
 [Luigi Ferrucci]: https://irp.nih.gov/pi/luigi-ferrucci
 [Agar Brugiavini]: https://unive.it/data/people/5591624
 [Elisa Fabbri]: https://www.unibo.it/sitoweb/elisa.fabbri38/
-
-
-
-
-
-
-
