@@ -11,7 +11,7 @@ Hi! I am a PhD student in Economics at the Faculty of Economics and Business (FE
 My research interests primarily lie in health economics, labor economics, and behavioral economics. 
 In my academic work, I have primarily used difference-in-differences methodologies, finite mixture models, and duration models. I have investigated causal questions related to fertility choices, elderly health, and other long-term outcomes over the life-cycle.
 
-Next to my research interests in economic research, I have a strong interest for mechanism design, modern AI developments at a technical level, and the impacts of scaling LLMs on labor markets. I am trying (desperately!) to stay at the forefront of the rat-race in AI technology.
+Next to my research interests in economic research, I have a strong interest for mechanism design and Natural Language Processing.
 
 <!-- while I am primarily an applied person -->
 
