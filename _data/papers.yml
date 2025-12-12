@@ -16,6 +16,15 @@ working_papers:
       The results are robust to alternative specifications that compare the two-way fixed effect estimator with to new estimators robust to heterogeneous treatment effects. 
       These findings underscore that expanding pension coverage can improve elderly health.
 
+  - id: ccp-premium
+    title: "Does it Pay to Join the Party? Decomposing Communist Party Wage Premia from Selection into Membership"
+    authors: []
+    solo: true
+    status: ""
+    abstract: >
+      Communist Party members in China have better-paying jobs and are more likely to work in white-collar occupations, but selection into membership based on both observed and unobserved characteristics generate bias in the true party premium through a long and extensive selection process. To disentangle selection effects in the widely reported communist party wage premium, I match individuals on socioeconomic conditions in childhood which strongly predict membership attainment 20 years later in early adulthood.
+      Using data from the 2018 wave of the China Health and Retirement Longitudinal Study (CHARLS), I find that the party premium largely disappears after the matching process, though a small premium persists. The residual wage premium is largest for retirees who previously worked in white-collar occupations, while no premium persists in blue-collar occupations or those still employed at the time of the survey.
+
   - id: multimorbidity-share
     title: "Longitudinal Trajectories of Chronic Disease Accumulation in Europe and England: A Panel Ordered Logit Model for Multimorbidity"
     authors:
@@ -30,14 +39,7 @@ working_papers:
       It is well established that multimorbidity increases with aging and is associated with adverse health outcomes, including physical and cognitive disability, frailty, and mortality. Using longitudinal data from more than 25,000 participants in the Survey of Health, Ageing and Retirement in Europe (SHARE) and the English Longitudinal Study of Ageing (ELSA), we describe within-individual disease trajectories of elderly individuals older than 50 prior to death. We implement a linear mixed model and a generalized ordered logit that allows for flexible coefficients across thresholds.
       We find that the within-individual probability of developing an additional chronic disease within a 2-year interval increases dynamically with the current disease count. Heterogeneity analyses suggest that individuals who experienced the first disease onset at older ages present more rapid health deterioration, and individuals from disadvantaged socioeconomic backgrounds accumulate chronic conditions faster. We do not find any evidence of chronic disease clusters.
 
-  - id: ccp-premium
-    title: "Does it Pay to Join the Party? Decomposing Communist Party Wage Premia from Selection into Membership"
-    authors: []
-    solo: true
-    status: ""
-    abstract: >
-      Communist Party members in China have better-paying jobs and are more likely to work in white-collar occupations, but selection into membership based on both observed and unobserved characteristics generate bias in the true party premium through a long and extensive selection process. To disentangle selection effects in the widely reported communist party wage premium, I match individuals on socioeconomic conditions in childhood which strongly predict membership attainment 20 years later in early adulthood.
-      Using data from the 2018 wave of the China Health and Retirement Longitudinal Study (CHARLS), I find that the party premium largely disappears after the matching process, though a small premium persists. The residual wage premium is largest for retirees who previously worked in white-collar occupations, while no premium persists in blue-collar occupations or those still employed at the time of the survey.
+
 
 work_in_progress:
   - id: son-preference
