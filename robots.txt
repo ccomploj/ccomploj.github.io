@@ -41,15 +41,14 @@ Disallow: /
 User-agent: Diffbot
 Disallow: /
 
-# Allow regular search engines
 User-agent: Googlebot
-Allow: /
+Disallow: /
 
 User-agent: Bingbot
-Allow: /
+Disallow: /
 
 User-agent: *
-Allow: /
+Disallow: /
 
 # Sitemap location
 Sitemap: https://ccomploj.github.io/sitemap.xml

@@ -4,25 +4,24 @@ author_profile: true
 title: "About me"
 ---
 
-Thank you for visiting. I am a development economist and applied microeconometrician with a focus on health and social security in China.
-
-Currently, I am a doctoral candidate at the Faculty of Economics and Business (FEB), [University of Groningen], The Netherlands. Previously, I obtained an undergraduate degree in Economics from [Maastricht University] in the Netherlands and a research master's degree from the University of Groningen.
+Hi! I am a PhD student in Economics at the Faculty of Economics and Business (FEB), [University of Groningen] in the Netherlands. Previously, I obtained an undergraduate degree in Economics from [Maastricht University] and a research master's degree from the University of Groningen.
 
 ## Research Focus
 
-My research lies at the intersection of **health economics**, **labor economics**, and **public economics**. I specialize in applying causal inference methods to understand complex health and social policy questions.
+My research interests primarily lie in health economics, labor economics, and behavioral economics. 
+In my academic work, I have primarily used difference-in-differences methodologies, finite mixture models, and duration models. I have investigated causal questions related to fertility choices, elderly health, and other long-term outcomes over the life-cycle.
 
-### Primary Research Areas
+Next to my research interests in economic research, I have a strong interest for mechanism design, modern AI developments at a technical level, and the impacts of scaling LLMs on labor markets. I am trying (desperately!) to stay at the forefront of the rat-race in AI technology.
+
+<!-- while I am primarily an applied person -->
+
+<!-- ### Primary Research Areas
 
 - Elderly health, cognition, and mental health
 - Health inequalities and socioeconomic determinants
 - Social security systems and pension programs
 - Informal care and long-term care economics
-- Multimorbidity and disease progression
-
-### Methodological Approach
-
-I employ advanced econometric techniques including difference-in-differences, finite mixture models, and duration analysis to address questions of unobserved heterogeneity and causal inference in health outcomes.
+- Multimorbidity and disease progression -->
 
 [University of Groningen]: https://www.rug.nl/feb/?lang=en
 [Maastricht University]: https://www.maastrichtuniversity.nl/about-um/faculties/school-business-and-economics

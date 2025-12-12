@@ -1,0 +1,472 @@
+%-------------------------
+% Resume in Latex
+% Author : Castor Comploj
+% Based off: %%%https://github.com/sb2nov/resume%%%
+% License : %%%MIT%%%
+%------------------------
+
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\input{glyphtounicode}
+\usepackage{geometry}
+%----------FONT OPTIONS----------
+% sans-serif
+% \usepackage[sfdefault]{FiraSans}
+% \usepackage[sfdefault]{roboto}
+% \usepackage[sfdefault]{noto-sans}
+% \usepackage[default]{sourcesanspro}
+% serif
+% \usepackage{CormorantGaramond}
+% \usepackage{charter}
+\usepackage{wrapfig}
+\usepackage{graphicx}
+\usepackage{ragged2e} % to use \justify text
+
+
+% Define dark blue color 
+% \usepackage[hidelinks]{hyperref} % to hide color of link
+
+\usepackage{xcolor} 
+\definecolor{darkblue}{RGB}{0,0,139} 
+% Configure hyperref package 
+\usepackage[colorlinks=true, linkcolor=darkblue, urlcolor=darkblue, citecolor=darkblue]{hyperref}
+
+
+\geometry{top=3cm, bottom=3cm, left=4cm, right=4cm}
+    %\usepackage{fontspec}
+    %\usepackage{palatino}
+
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+% Ensure that generate pdf is machine readable/ATS parsable
+\pdfgentounicode=1
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{-2pt}}
+  }
+}
+
+% \newcommand{\resumeSubheading}[4]{
+%   \vspace{-2pt}\item
+%     \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+%       \textbf{#1} & #2 \\
+%       \textit{\small#3} & \textit{\small #4} \\
+%     \end{tabular*}\vspace{-7pt}
+% }
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabularx}{0.97\textwidth}{X r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabularx}\vspace{-7pt}
+}
+
+
+\newcommand{\resumeSubSubheading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textit{\small#1} & \textit{\small #2} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & #2 \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.15in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{document}
+%----------HEADING----------
+% \begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+% \end{tabular*}
+
+%% To add photo, uncomment -wrapfigure- and comment -center-
+% \begin{wrapfigure}{r}{0.5\textwidth}
+%   \raggedleft
+%   \includegraphics[height=0.2\textwidth]{imgcareer.jpg}
+% \end{wrapfigure}    
+
+\begin{center}
+    \textbf{\Huge \scshape Castor Comploj} \\ \vspace{5pt}
+     %\small +31-630265589 $|$ %\href{mailto:castorcomploj@protonmail.com}{\underline{castorcomploj@protonmail.com}} $|$ 
+    \href{mailto:c.comploj@.rug.nl}{\underline{c.comploj@.rug.nl}} $|$ 
+    % \href{https://linkedin.com/in/ccomploj}{\underline{LinkedIn}} $|$
+    \href{https://ccomploj.github.io/}{\underline{ccomploj.github.io}} % $|$ 
+    \\ \vspace{0.2cm}
+    % \small Italian $|$ 
+    % \small 21/10/1996 $|$
+    % \small (+31)645089228
+    % \\ \vspace{5pt}
+    \small \textit{Department of Economics, Econometrics and Finance (EEF), \\ 
+    University of Groningen, The Netherlands  \\ 
+    Nettelbosje 2, 9747 AE, PO Box 800}
+\end{center}
+
+%-----------EDUCATION-----------
+\vspace{0.2 cm}
+\section{Education}
+  \resumeSubHeadingListStart
+    \resumeSubheading 
+    {University of Groningen}{}
+    {PhD in Economics}{2022 -- 2026} 
+    \resumeSubheading 
+    {University of Groningen}{}
+    {MPhil Economics}{2020 -- 2022} 
+    \resumeSubheading 
+    {Maastricht University}{}
+    {BSc in Economics, 8.2/10 (eq. 4/4), with honors, cum laude}{2016 -- 2019} 
+    % \resumeSubheading 
+    %   {PhD in Economics}{University of Groningen, NL}
+    %   {Department of Economics, Econometrics and Finance (EEF)}{2022 -- 2026} %   Reseach area: Microeconometrics and Causal Inference
+        % \resumeItemListStart
+        % \resumeItem{Advisors: \footnotesize 
+        % \href{https://www.rug.nl/staff/gerard.van.den.berg/}{Gerard J. van den Berg}, 
+        % \href{https://sites.google.com/site/bertrandachou/home}{Bertrand Achou}}
+        % \resumeItemListEnd
+    % \resumeSubheading
+    %   {MPhil in Economics}{Groningen \& Utrecht, NL}
+    %   {Research Master}{2020 -- 2022} % MSc (MPhil equiv.) in Economics, Research/PhD Track
+        % \resumeItemListStart
+        % \resumeItem Ranking (2025): 40 (US News), 69 (ShanghaiRanking), 56 (THE), 
+        % \resumeItem{Econometric Inference taught by
+        %         \href{}{Gerard van den Berg} \\
+        % Labor Economics taught by
+        %         \href{https://maartengoos.com/}{Maarten Goos} }
+        %\resumeItem{Barcelona GSE, Summer School in Data Science, 2021 (by A.Souza)} % moved below to summerschools
+        % \resumeItemListEnd
+    % \resumeSubheading
+    %   {BSc Economics and Business Economics}{Maastricht University, NL}{Emerging Markets Specialization (Hons), 8.2/10 (eq. 4/4), cum laude}{2016 -- 2019} 
+  %       \resumeItemListStart\resumeItem{\href{https://www.maastrichtuniversity.nl/education/excellence-and-honours-programmes}{\underline{Honours}} (Phi Beta Kappa),     \href{https://edlab.nl/excellence/marble/}{\underline{MaRBLe}}, 217/180 ECTS}
+  %       % \resumeItem {Thesis: Universal Two-Child Policy in China: Exploiting regional heterogeneity in policy enforcement}
+  %       \resumeItemListEnd
+  %   % \resumeSubheading{Liceo Scientifico}{Bolzano, IT}{Exchange Year at Liaoning Anshan No.3 Senior High, China (2014)}{2011 -- 2015}
+
+\resumeSubHeadingListEnd
+
+%-----------Research Intests ---------- is written in personal information
+%\vspace{0.5 cm}
+\section{Research Interests} 
+% \vspace{0.3 cm}
+\begin{itemize}[leftmargin=0.15in, , label={}] 
+    \small{\item{
+     \textbf{Economics}{: Behavioral Economics, Health \& Development Demography} \\
+     % Methods: Microeconometrics Causal Inference
+     %\textbf{Certificates}{: HSK5 (Chinese), Grasshopper (JavaScript)} \\
+     % \textbf{Citizenship}{: Italian}     \\
+     %\textbf{Date of Birth}{: 21 Oct. 1996} \\
+     % \textbf{Leisure}{: Gardening, Farming, Swimming, Chess}\\
+    % \textbf{Nationality}{: Italian} 
+     }}
+ \end{itemize}
+
+%-----------Research-----------
+% Papers generated from _data/papers.yml - run generate_latex_papers.py to update
+\input{papers_generated.tex}
+
+%--------- Invited Presentations and Conferences -----
+% \vspace{0.3 cm}
+\section{Conferences and workshop presentations} 
+\textbf{2025:} MIT Polarization Workshop 2025 | Chinese Economists Conference (CES) North America Meeting, University of Michigan (Ann-Arbor, US) | Chinese Economists Conference (CES), Sun-Yatsen University (Guangzhou, China) | Economics of Artificial Intelligence, Rimini Center for Economic Analysis, College de France (Paris, France)
+% stanford CI seminar
+\\ 
+\vspace{.1cm}
+\textbf{2024:} International Association of Applied Econometrics (IAAE), Xiamen University (China) |  Econometrics Society Asia Meeting (AMES), Zhejiang University (Hangzhou, China) | Chinese Economists Society (CES) China Yearly Conference,  Zhejiang University (Hangzhou, China) 
+\\
+\vspace{.1cm}
+\textbf{2023:} International Association of Applied Econometrics (IAAE), BI Norwegian Business School (Oslo, Norway) | EuHEA PhD Conference, University of Bologna (Italy) 
+\\
+\vspace{.1cm}
+\textbf{2022:} Dggoe Health Econometrics Workshop, Leibniz University Hannover (Germany) | Bolzano Joint Political Economy and Applied Economics Workshop, Free University of Bolzano, (Italy)
+
+% \newpage
+%-----------Teaching & RA ---------- %-----------EXPERIENCE-----------
+\vspace{0.3 cm}
+\section{Teaching Experience} 
+\resumeSubHeadingListStart
+    \resumeProjectHeading {TA Microeconometrics \& Causal Inference (BSc) $|$ \emph{University of Groningen}}{2023 -- 2025}
+    \resumeProjectHeading {TA Inference in Econometrics (BSc) $|$ \emph{University of Groningen}}{2023 -- 2024}
+    \resumeProjectHeading {Supervision of BSc Econometrics Theses, x28 $|$ \emph{University of Groningen}}{2022 -- 2025}
+    \resumeProjectHeading {TA for Quantitative Methods $|$ \emph{Maastricht University}}{2017 -- 2019}
+    \resumeProjectHeading {Private Tutor $|$ \emph{Grade Boost}}{2017 -- 2019}
+\resumeSubHeadingListEnd
+
+
+\vspace{0.3 cm}
+\section{Research Assistantship and other experience} % Academic Work Experience
+  \resumeSubHeadingListStart
+    \resumeSubheading {RA for Dr. Denis de Crombrugghe}{2022} {Nazarbaev University}{Astana, Kazakhstan}
+        \resumeItemListStart
+        \resumeItem{Collection of data for firm-level business activity across Turkey, Georgia, Azerbaijan, Kazakhstan, Uzbekistan, Kyrgyzstan}
+%        \resumeItem {Collecting e-mail addresses from philosophy journals' authors using automated scraping methods}
+        \resumeItemListEnd
+    \resumeSubheading {RA for Prof.\ dr.\ B. de Bruin}{2021 -- 2022} {University of Groningen Faculty of Economics and Business (FEB)}{Groningen, NL}
+        \resumeItemListStart
+        \resumeItem{Survey and data analysis for paper 'Ranking Philosophy Journals'}
+%        \resumeItem {Collecting e-mail addresses from philosophy journals' authors using automated scraping methods}
+        \resumeItemListEnd
+    \resumeSubheading {RA for Dr.\ S. Pichler}{2021 -- 2022} {University of Groningen Faculty of Economics and Business (FEB)}{Groningen, NL}
+        \resumeItemListStart
+        \resumeItem{Data assistance to paper "Mandated Sick Pay: Coverage, Utilization and Welfare effects"}
+        \resumeItemListEnd
+    \resumeSubheading {Researcher}{2020} {Earth5r}{Mumbai, India (remote)}
+        \resumeItemListStart
+        \resumeItem{Collect cross-country data on fossil fuel extraction and exports}
+        \resumeItemListEnd
+    \resumeSubheading {Marketing Officer Intern}{2017} {Earth5r}{Mumbai, India}
+        \resumeItemListStart
+        \resumeItem{Contact stakeholders for sponsorship and employee engagement programs (stakeholders included Tata Steel)}
+        \resumeItemListEnd
+\resumeSubHeadingListEnd
+  \vspace{0.5cm}
+
+
+
+
+
+  
+
+
+
+% -----------Multiple Positions Heading-----------
+%    \resumeSubSubheading
+%     {Software Engineer I}{Oct 2014 - Sep 2016}
+%     \resumeItemListStart
+%        \resumeItem{Apache Beam}
+%          {Apache Beam is a unified model for defining both batch and streaming data-parallel processing pipelines}
+%     \resumeItemListEnd
+%    \resumeSubHeadingListEnd
+%-------------------------------------------  
+
+
+% %--------- Refereeing 
+% \section{Refereeing}
+% Economics and Human Biology
+
+
+
+
+
+
+
+
+
+
+
+
+%-----------Summer Schools ----------
+% \vspace{0.3 cm}
+% \section{Additional Training}
+% \textbf{2025} (i) The Mixtape: Instumental Variables by \textit{Peter Hull} | (ii) Chicago School in Experimental Economics 2025 by \textit{John List}, University of Bonn (Germany) \\
+% \textbf{2024} (i) The Mixtape: Frontiers in Difference-in-Differences, by \textit{Brantly Callaway} \\
+% \textbf{2023} (i) The Mixtape: Advanced Difference-in-Differences, by \textit{Johnathan Roth} | (ii) Summer Institute of Aging, \textit{Venice International University} \\
+% \textbf{2022} (i) The Mixtape: Causal Inference II, by \textit{Scott Cunningham} | (ii) The Mixtape: Machine Learning and Causal Inference, by \textit{Richard Frandsen} | (iii) Topics in Applied Microeconomics, by \textit{Travis Lybbert}, Tilburg, The Netherlands \\
+% \textbf{2021} (i) Barcelona Graduate School of Economics Data Science Summer School, by \textit{André Souza}, Barcelona, Spain
+
+
+
+%-----------Extracurricular-----------
+\vspace{0.3 cm}
+\section{Extracurricular Activity}
+\resumeSubHeadingListStart
+      \resumeProjectHeading {\textbf{EBF Study Association} $|$ \emph{Career events}}{2020 -- 2022}
+      %\resumeProjectHeading {\textbf{MoRe Research Master Study Association} $|$ \emph{University of Groningen, NL}}{2020}
+%      \resumeProjectHeading {\textbf{European Forum Alpbach} $|$ \emph{Scholarship participant}}{2020}
+      \resumeProjectHeading {\textbf{MOOC - Coursera/EdX/Skillshare} $|$ \emph{R, Python, JavaScript, Data Science}}{2019 -- 2020}
+%      \resumeProjectHeading {\textbf{Circolo Gardena} $|$ \emph{Art and Exhibitions of local artists}}{2019 -- 2020}
+      \resumeProjectHeading {\textbf{SCOPE Maastricht} $|$ \emph{Academic Committee/PINE, committee member}}{2017 -- 2019}
+%      \resumeProjectHeading {\textbf{Maastricht Chess Club} $|$ \emph{Informal Chess Society, Co-Organizer}}{2018 -- 2019}
+      \resumeProjectHeading {\textbf{Global Entrepreneurship Week Maastricht} $|$ \emph{Board member}}{2017 -- 2018}
+      \resumeProjectHeading {\textbf{AFS Intercultural Programs} $|$ \emph{Exchange Program representative}}{2015 -- 2019}
+
+\resumeSubHeadingListEnd
+
+
+%-----------Awards & Prizes----------- % Grants
+%\vspace{0.1 cm}
+% \section{Honors \& Grants} 
+\section{Fellowships \& Awards}     
+\resumeSubHeadingListStart
+    \resumeProjectHeading {Doctoral Completion Fellowship $|$ \emph{University of Groningen}}{2025} % was written like this in Walker Ray at the FED
+    \resumeProjectHeading {Travel Grant $|$ \emph{CES North America Conference}}{2025}
+    \resumeProjectHeading {Scholarship $|$ \emph{University of Groningen, Research Master}}{2020}
+    \resumeProjectHeading {Study Grant $|$ \emph{Quantitative Economic Methods Master, Paris 1 Sorbonne | offer rejected}}{2020}
+    \resumeProjectHeading {Study Grant $|$ \emph{Peking University HSBC, Master Economics | offer rejected}}{2020}
+%    \resumeProjectHeading {MarBLe Research-based-learning Thesis $|$ \emph{Maastricht University}}{2019}
+%    \resumeProjectHeading {Beta Gamma Sigma Honors Society $|$ \emph{Maastricht University}}{2017}
+    \resumeProjectHeading {Scholarship $|$ \emph{European Forum Alpbach}}{2019}
+    \resumeProjectHeading {Honors $|$ \emph{Phi Beta Kappa}}{2018}
+    \resumeProjectHeading {Scholarship $|$ \emph{AFS Intercultural Programs}}{2015}
+\resumeSubHeadingListEnd
+
+
+
+% %-----------OTHER Work EXPERIENCE-----------
+% \vspace{0.3 cm}
+% \section{Other Work Experience}
+%   \resumeSubHeadingListStart
+%     \resumeSubheading {Marketing Officer}{Feb. 2019 -- June 2019}{\href{https://www.maastrichtuniversity.nl}{Maastricht University (UM)}}{Shanghai, CN}
+%       %\url{https://www.maastrichtuniversity.nl}
+%         \resumeItemListStart
+%         \resumeItem{Represent UM at education fairs \& consult prospective Chinese students}
+%         % \resumeItem{Research Project on Chinese university students' foreign education perceptions}
+%         % \resumeItem{Tutoring GCSE-level to students at host institution Caoyang No.2 Senior High}
+%         \resumeItemListEnd
+% %    \resumeSubheading {Teaching Assistant}{Sep. 2017 -- Jan. 2019}{\href{https://gradeboost.simplybook.me/index/about}{\underline{\textcolor{black}{Grade Boost}}}  $|$ Tutoring undergraduate mathematics and statistics}{Maastricht, NL} 
+%     \resumeSubheading {Promotion Intern}{July 2017 -- Aug. 2017}{\href{https://earth5r.org/}{\underline{\textcolor{black}{Earth5r}}} $|$ NGO, Environment projects}{Mumbai, India}
+% %      \resumeItemListStart
+% %        \resumeItem{Arrange meetings with HRs for employee retention programs at Earth5r}
+% %        \resumeItem{Negotiate with local stakeholders (e.g. TAJ Group) about sponsorship opportunities}
+% %    \resumeItemListEnd
+%     \resumeSubheading {Sales Assured Field Agent}{Sep. 2015 -- Jan. 2016} {\href{https://www.simplyenergy.com.au/}{\underline{\textcolor{black}{Simply Energy Australia}}} $|$ D2D Energy contracts}{Melbourne, AU}
+%   \resumeSubHeadingListEnd
+
+
+% Title 
+\vspace{0.3 cm}
+% \section*{\centering References}
+% % %----------- References -----------
+% \begin{center}
+% % \vspace{2em} % Adjust the space above the references as needed
+% \begin{tabular}{c @{\hspace{5cm}} c} % Adjust the hspace value as needed
+% % \hline
+% % \rule{0pt}{6ex} % Increase the space above the references further if needed    
+
+% % Reference 1
+% \begin{minipage}{0.3\textwidth}
+% \vspace{2em} % Adjust the space above the references as needed
+% \centering % Center the text within this minipage
+% Gerard van den Berg \\
+% Professor of Economics \\
+% University of Groningen \\
+% Groningen, The Netherlands \\
+% gerard.van.den.berg@rug.nl \\
+% \vspace{2em} % Adjust the space above the references as needed
+% \end{minipage}
+% &
+% % Reference 2
+% \begin{minipage}{0.3\textwidth}
+% \centering 
+% Bertrand Achou \\
+% Associate Professor \\
+% University of Groningen \\
+% Groningen, The Netherlands \\
+% b.j.p.achou@rug.nl \\
+% \end{minipage}
+% \\
+% % Reference 3
+% \begin{minipage}{0.3\textwidth}
+% \centering 
+% Agnieszka Postepska (Teaching) \\
+% Associate Professor \\
+% University of Groningen \\
+% Groningen, The Netherlands \\ 
+% a.postepska@rug.nl \\
+% \end{minipage}
+% % &
+% % Empty space or add another reference here
+% \\
+
+% \rule{0pt}{2ex} % Adjust the space below the references if needed
+% % \\ \hline
+% \vspace{2em} % Adjust the space above the references as needed
+% \end{tabular}    
+% \end{center}
+
+
+%% add Erfan at Harvard
+
+    
+    %%% option 2: manually written
+    % \begin{center} 
+    % \textit{References} 
+    % \end{center}
+    % \begin{center}
+    % \begin{tabular}{c @{\hspace{3cm}} c} % Adjust the hspace value as needed
+    % \hline
+    % \rule{0pt}{4ex}    
+    % Gerard van den Berg & Bertrand Achou \\
+    % Professor of Economics & Associate Professor of Economics \\
+    % University of Groningen, J-PAL & University of Groningen \\
+    % Groningen, The Netherlands & Groningen, The Netherlands \\
+    % gerard.van.den.berg@rug.nl & b.j.p.achou@rug.nl \\
+    % \\ 
+    % Agnieszka Postepska (Teaching) & \\
+    % Associate Professor & \\
+    % University of Groningen & \\
+    % Groningen, The Netherlands & \\ 
+    % a.postepska@rug.nl 
+    % \rule{0pt}{1ex}    
+    % \\ \hline
+    % \end{tabular}    
+    % \end{center}
+    % % Luigi Ferrucci & Agar Brugiavini \\
+    % % Scientific Director & Professor of Economics \\
+    % % National Institute of Aging (NIA) & Ca' Foscari University \\
+    % % Baltimore (MD), Unites States & Venice, Italy \\
+    % % ferruccilu@grc.nia.nih.gov & brugiavi@unive.it \\
+
+\section{Miscellaneous}
+ \begin{itemize}[leftmargin=0.15in, , label={}] 
+    \small{\item{
+     \textbf{Languages}{: Ladino (Native), German (Native), Italian (Native), English (fluent), Dutch (B2), Russian (B1), Mandarin (HSK5 / C1)} \\
+     \textbf{Software}{: Git, Github, Python, R, STATA, \LaTeX{}, Qualtrics } \\ % $|$ Pandas, NumPy, Matplotlib, Seaborn} \\
+     %\textbf{Certificates}{: HSK5 (Chinese), Grasshopper (JavaScript)} \\
+     % \textbf{Citizenship}{: Italian}     \\
+     %\textbf{Date of Birth}{: 21 Oct. 1996} \\
+     % \textbf{Leisure}{: Gardening, Farming, Swimming, Chess}\\
+    \textbf{Nationality}{: Italian} 
+     }}
+ \end{itemize}
+
+
+updated: \today
+%-------------------------------------------
+\end{document}
