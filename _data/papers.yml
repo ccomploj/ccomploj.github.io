@@ -12,7 +12,7 @@ working_papers:
         url: "https://www.rug.nl/staff/gerard.van.den.berg"
     status: "in submission"
     abstract: >
-      This paper investigates the mental health consequences of noncontributory pensions by leveraging regional and temporal variation in implementation dates of the New Rural Pension Scheme (2009–2012). Using data from the China Health and Retirement Longitudinal Study (CHARLS), we implement a difference-in-differences strategy that compares the mental health trajectories of early- and late-eligible individuals. We find a strong first stage result with 60% takeup among the eligible population and a reduction in the Center for Epidemiologic Studies Depression (CESD) score by 0.1 SD among the compliers.
+      This paper investigates the mental health consequences of noncontributory pensions by leveraging regional and temporal variation in implementation dates of the New Rural Pension Scheme (2009–2012). Using data from the China Health and Retirement Longitudinal Study (CHARLS), we implement a staggered difference-in-differences strategy that compares the mental health trajectories of earlier and later-eligible individuals. We find a strong first stage result with 60% takeup among the eligible population and a reduction in the Center for Epidemiologic Studies Depression (CESD) score by 0.1 SD among the compliers.
       The results are robust to alternative specifications that compare the two-way fixed effect estimator with to new estimators robust to heterogeneous treatment effects. 
       These findings underscore that expanding pension coverage can improve elderly health.
 
@@ -48,7 +48,7 @@ work_in_progress:
     solo: true
     status: "JMP"
     abstract: >
-      Declining fertility rates and aging populations pose significant challenges for policymakers, yet the long-term effects of family size on parents' health and cognitive outcomes in old age remain underexplored. 
+      Declining fertility rates and aging populations pose significant challenges for policymakers, yet the long-term effects of family size on parents' health and cognitive outcomes in old age are not clearly understood. 
       Using longitudinal household data from the China Health and Retirement Longitudinal Study (CHARLS), I estimate a causal effect of family size on parents' work participation, health and cognitive outcomes at ages 45-80 using an instrumental variable approach.
       I leverage two sources of quasi-exogenous variation: the sex of the firstborn child, and geographic and temporal variation in penalties for above-quota births imposed during the one-child-policy, available for the period 1979-2000.
       Both instruments have strong predictive power on fertility, yet I find no evidence that larger family size adversely affects parental cognitive outcomes.
