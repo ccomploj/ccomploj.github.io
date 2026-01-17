@@ -14,5 +14,5 @@ GitHub Pages visibility is controlled in the repository settings, not by files i
 This repo alone cannot change its visibility; the steps above must be done in GitHub.
 
 # Notes
-google html is the Google ownership file (to make the site searchable on google). Change ownership on Google Search Console. The same needs to be done separately for Bing Console 
-Special Thanks to Huangs's repo
+The google html is the Google ownership file (to make the site searchable on Google). Change ownership on Google Search Console. The same needs to be done separately for Bing Console 
+Special Thanks to Huang's repo
