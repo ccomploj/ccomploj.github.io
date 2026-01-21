@@ -3,6 +3,7 @@ permalink: /other/
 title: "Other Projects"
 ---
 
+<!-- 
 Code, data tools, and other resources I've developed or contributed to.
 
 ## Research Tools & Resources
@@ -18,3 +19,4 @@ HRS-type datasets are essential for aging, health, and retirement research. "HRS
 The file is designed to facilitate the analysis of Health and Retirement Study (HRS) and related sister surveys harmonized by the Gateway2Aging (g2aging) project (SHARE, CHARLS, ELSA, etc.). The file streamlines data preparation, reshaping wide-format data into a long-format panel, reducing the dataset to a compact dataset, keeping only the chosen variables. This facilitates cross-country economic research on elderly populations.
 
 </details>
+-->
